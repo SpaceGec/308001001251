@@ -1,0 +1,625 @@
+{
+  "Datos_Generales": {
+    "Nombre_Colegio": "INSTITUCION EDUCATIVA DISTRITAL SANTA MAGDALENA SOFIA",
+    "Codigo_DANE": "308001001251",
+    "Ubicacion": "BARRANQUILLA - ATLANTICO",
+    "ETC": "BARRANQUILLA",
+    "Sector": "Oficial",
+    "Zona": "Urbano",
+    "GC": "N.D."
+  },
+  "Resultados_Consolidados": {
+    "Tabla_2_1_Global": [
+      {
+        "Grupo_Comparacion": "Establecimiento educativo",
+        "Anio_2025": {"Promedio": "294", "Desviacion": "49"},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      },
+      {
+        "Grupo_Comparacion": "Sede 0 / Jornada O",
+        "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      },
+      {
+        "Grupo_Comparacion": "Colombia",
+        "Anio_2025": {"Promedio": "261", "Desviacion": "53"},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      },
+      {
+        "Grupo_Comparacion": "ETC",
+        "Anio_2025": {"Promedio": "266", "Desviacion": "55"},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      },
+      {
+        "Grupo_Comparacion": "Oficiales urbanos ETC",
+        "Anio_2025": {"Promedio": "260", "Desviacion": "52"},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      },
+      {
+        "Grupo_Comparacion": "Privados ETC",
+        "Anio_2025": {"Promedio": "286", "Desviacion": "59"},
+        "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+        "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+      }
+    ]
+  },
+  "Areas_Detalle": {
+    "Lectura_Critica": {
+      "Tabla_3_1_Promedios": [
+        {
+          "Grupo_Comparacion": "Establecimiento educativo (EE)",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Sede 0 / Jornada O",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Colombia",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Oficiales urbanos ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Privados ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        }
+      ],
+      "Tabla_3_2_Niveles": [
+        {
+          "Nivel_Desempenio": "1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "2",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "3",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "4",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        }
+      ],
+      "Figura_3_4_Incorrectas_Afirmacion": [
+        {
+          "Aprendizaje_Afirmacion": "Identifica y entiende los contenidos locales que conforman un texto.",
+          "Porcentaje_EE": "23%",
+          "Porcentaje_Colombia": "33%",
+          "Porcentaje_ETC": "31%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+          "Porcentaje_EE": "31%",
+          "Porcentaje_Colombia": "44%",
+          "Porcentaje_ETC": "41%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Reflexiona a partir de un texto y evalúa su contenido.",
+          "Porcentaje_EE": "42%",
+          "Porcentaje_Colombia": "51%",
+          "Porcentaje_ETC": "49%"
+        }
+      ]
+    },
+    "Matematicas": {
+      "Tabla_4_1_Promedios": [
+        {
+          "Grupo_Comparacion": "Establecimiento educativo (EE)",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Sede 0 / Jornada O",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Colombia",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Oficiales urbanos ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Privados ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        }
+      ],
+      "Tabla_4_2_Niveles": [
+        {
+          "Nivel_Desempenio": "1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "2",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "3",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "4",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        }
+      ],
+      "Figura_4_4_Incorrectas_Afirmacion": [
+        {
+          "Aprendizaje_Afirmacion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+          "Porcentaje_EE": "49%",
+          "Porcentaje_Colombia": "57%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+          "Porcentaje_EE": "38%",
+          "Porcentaje_Colombia": "47%",
+          "Porcentaje_ETC": "45%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos",
+          "Porcentaje_EE": "20%",
+          "Porcentaje_Colombia": "36%",
+          "Porcentaje_ETC": "34%"
+        }
+      ]
+    },
+    "Sociales_Ciudadanas": {
+      "Tabla_5_1_Promedios": [
+        {
+          "Grupo_Comparacion": "Establecimiento educativo (EE)",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Sede 0 / Jornada O",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Colombia",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Oficiales urbanos ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Privados ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        }
+      ],
+      "Tabla_5_2_Niveles": [
+        {
+          "Nivel_Desempenio": "1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "2",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "3",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "4",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        }
+      ],
+      "Figura_5_4_Incorrectas_Afirmacion": [
+        {
+          "Aprendizaje_Afirmacion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+          "Porcentaje_EE": "33%",
+          "Porcentaje_Colombia": "52%",
+          "Porcentaje_ETC": "49%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende dimensiones espaciales y temporales de eventos, problemáticas y prácticas sociales.",
+          "Porcentaje_EE": "18%",
+          "Porcentaje_Colombia": "42%",
+          "Porcentaje_ETC": "41%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+          "Porcentaje_EE": "61%",
+          "Porcentaje_Colombia": "69%",
+          "Porcentaje_ETC": "67%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende perspectivas de distintos actores y grupos sociales.",
+          "Porcentaje_EE": "35%",
+          "Porcentaje_Colombia": "50%",
+          "Porcentaje_ETC": "48%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Evalúa usos sociales de las ciencias sociales.",
+          "Porcentaje_EE": "37%",
+          "Porcentaje_Colombia": "57%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+          "Porcentaje_EE": "25%",
+          "Porcentaje_Colombia": "42%",
+          "Porcentaje_ETC": "39%"
+        }
+      ]
+    },
+    "Ciencias_Naturales": {
+      "Tabla_6_1_Promedios": [
+        {
+          "Grupo_Comparacion": "Establecimiento educativo (EE)",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Sede 0 / Jornada O",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Colombia",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Oficiales urbanos ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Privados ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        }
+      ],
+      "Tabla_6_2_Niveles": [
+        {
+          "Nivel_Desempenio": "1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "2",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "3",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "4",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        }
+      ],
+      "Figura_6_4_Incorrectas_Afirmacion": [
+        {
+          "Aprendizaje_Afirmacion": "Identificar las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico. - Procesos químicos",
+          "Porcentaje_EE": "47%",
+          "Porcentaje_Colombia": "50%",
+          "Porcentaje_ETC": "49%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Observar y relacionar patrones en los datos para evaluar las predicciones. - Procesos físicos",
+          "Porcentaje_EE": "23%",
+          "Porcentaje_Colombia": "30%",
+          "Porcentaje_ETC": "28%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Asociar fenómenos naturales con conceptos propios del conocimiento científico. - Procesos físicos",
+          "Porcentaje_EE": "48%",
+          "Porcentaje_Colombia": "58%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Derivar conclusiones para algunos fenómenos de la naturaleza basándose en conocimientos científicos y en la evidencia de su propia investigación y de la de otros. - Procesos vivos",
+          "Porcentaje_EE": "47%",
+          "Porcentaje_Colombia": "48%",
+          "Porcentaje_ETC": "47%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Identificar las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico. - Procesos vivos",
+          "Porcentaje_EE": "59%",
+          "Porcentaje_Colombia": "57%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Derivar conclusiones para algunos fenómenos de la naturaleza basándose en conocimientos científicos y en la evidencia de su propia investigación y de la de otros. - Procesos químicos",
+          "Porcentaje_EE": "40%",
+          "Porcentaje_Colombia": "42%",
+          "Porcentaje_ETC": "40%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Asociar fenómenos naturales con conceptos propios del conocimiento científico. - Procesos químicos",
+          "Porcentaje_EE": "55%",
+          "Porcentaje_Colombia": "58%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Utilizar algunas habilidades de pensamiento y de procedimiento para evaluar predicciones - Procesos físicos",
+          "Porcentaje_EE": "23%",
+          "Porcentaje_Colombia": "38%",
+          "Porcentaje_ETC": "36%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Identificar las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico. - CTS",
+          "Porcentaje_EE": "25%",
+          "Porcentaje_Colombia": "36%",
+          "Porcentaje_ETC": "34%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Modelar fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas. - Procesos vivos",
+          "Porcentaje_EE": "49%",
+          "Porcentaje_Colombia": "52%",
+          "Porcentaje_ETC": "49%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Explicar cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, en patrones y en conceptos propios del conocimiento científico. - Procesos vivos",
+          "Porcentaje_EE": "25%",
+          "Porcentaje_Colombia": "40%",
+          "Porcentaje_ETC": "39%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprender que a partir de la investigación científica se construyen explicaciones sobre el mundo natural. - Procesos vivos",
+          "Porcentaje_EE": "42%",
+          "Porcentaje_Colombia": "43%",
+          "Porcentaje_ETC": "40%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Observar y relacionar patrones en los datos para evaluar las predicciones. - Procesos vivos",
+          "Porcentaje_EE": "38%",
+          "Porcentaje_Colombia": "42%",
+          "Porcentaje_ETC": "40%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Utilizar algunas habilidades de pensamiento y de procedimiento para evaluar predicciones - Procesos vivos",
+          "Porcentaje_EE": "33%",
+          "Porcentaje_Colombia": "41%",
+          "Porcentaje_ETC": "39%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Modelar fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas. - Procesos físicos",
+          "Porcentaje_EE": "47%",
+          "Porcentaje_Colombia": "56%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Identificar las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico. - Procesos físicos",
+          "Porcentaje_EE": "49%",
+          "Porcentaje_Colombia": "49%",
+          "Porcentaje_ETC": "47%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Analizar el potencial del uso de recursos naturales o artefactos y sus efectos sobre el entorno y la salud, así como las posibilidades de desarrollo para las comunidades. - CTS",
+          "Porcentaje_EE": "25%",
+          "Porcentaje_Colombia": "35%",
+          "Porcentaje_ETC": "34%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Modelar fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas. - Procesos químicos",
+          "Porcentaje_EE": "32%",
+          "Porcentaje_Colombia": "43%",
+          "Porcentaje_ETC": "40%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Explicar cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, en patrones y en conceptos propios del conocimiento científico. - Procesos químicos",
+          "Porcentaje_EE": "51%",
+          "Porcentaje_Colombia": "54%",
+          "Porcentaje_ETC": "52%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Observar y relacionar patrones en los datos para evaluar las predicciones. - Procesos químicos",
+          "Porcentaje_EE": "42%",
+          "Porcentaje_Colombia": "49%",
+          "Porcentaje_ETC": "46%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Derivar conclusiones para algunos fenómenos de la naturaleza basándose en conocimientos científicos y en la evidencia de su propia investigación y de la de otros. - Procesos físicos",
+          "Porcentaje_EE": "30%",
+          "Porcentaje_Colombia": "43%",
+          "Porcentaje_ETC": "42%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Asociar fenómenos naturales con conceptos propios del conocimiento científico. - Procesos vivos",
+          "Porcentaje_EE": "51%",
+          "Porcentaje_Colombia": "54%",
+          "Porcentaje_ETC": "53%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprender que a partir de la investigación científica se construyen explicaciones sobre el mundo natural. - Procesos químicos",
+          "Porcentaje_EE": "N.D.",
+          "Porcentaje_Colombia": "N.D.",
+          "Porcentaje_ETC": "N.D."
+        },
+        {
+          "Aprendizaje_Afirmacion": "Utilizar algunas habilidades de pensamiento y de procedimiento para evaluar predicciones - Procesos químicos",
+          "Porcentaje_EE": "55%",
+          "Porcentaje_Colombia": "57%",
+          "Porcentaje_ETC": "55%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Comprender que a partir de la investigación científica se construyen explicaciones sobre el mundo natural. - Procesos físicos",
+          "Porcentaje_EE": "64%",
+          "Porcentaje_Colombia": "60%",
+          "Porcentaje_ETC": "57%"
+        },
+        {
+          "Aprendizaje_Afirmacion": "Explicar cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, en patrones y en conceptos propios del conocimiento científico. - Procesos físicos",
+          "Porcentaje_EE": "41%",
+          "Porcentaje_Colombia": "44%",
+          "Porcentaje_ETC": "44%"
+        }
+      ]
+    },
+    "Ingles": {
+      "Tabla_7_1_Promedios": [
+        {
+          "Grupo_Comparacion": "Establecimiento educativo (EE)",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Sede 0 / Jornada O",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Colombia",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Oficiales urbanos ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        },
+        {
+          "Grupo_Comparacion": "Privados ETC",
+          "Anio_2025": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2024": {"Promedio": "N.D.", "Desviacion": "N.D."},
+          "Anio_2023": {"Promedio": "N.D.", "Desviacion": "N.D."}
+        }
+      ],
+      "Tabla_7_2_Niveles": [
+        {
+          "Nivel_Desempenio": "A-",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "A1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "A2",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "B1",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        },
+        {
+          "Nivel_Desempenio": "B+",
+          "Anio_2025": "N.D.",
+          "Anio_2024": "N.D.",
+          "Anio_2023": "N.D."
+        }
+      ]
+    }
+  }
+}

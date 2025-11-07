@@ -1,0 +1,1649 @@
+{
+  "Metadata_Simulacro": {
+    "Colegio_ID": "I.E.D. SANTA MAGDALENA SOFIA",
+    "Simulacro_ID": "2-03 EPSILON 10 SABER",
+    "Grado_Evaluado": "10°",
+    "Fecha_Aplicacion": "07-11-2025"
+  },
+  "Resultados_Areas": [
+    {
+      "Area": "Matemáticas",
+      "Puntaje_Promedio_Area": "42.7",
+      "Rendimiento_Competencias": [
+        {
+          "Nombre_Competencia": "FORMULACIÓN Y EJECUCIÓN",
+          "Puntaje_Promedio": "34.1",
+          "Porcentaje_Acierto": "34.1%"
+        },
+        {
+          "Nombre_Competencia": "ARGUMENTACIÓN",
+          "Puntaje_Promedio": "46.3",
+          "Porcentaje_Acierto": "46.3%"
+        },
+        {
+          "Nombre_Competencia": "INTERPRETACIÓN Y REPRESENTACIÓN",
+          "Puntaje_Promedio": "52.5",
+          "Porcentaje_Acierto": "52.5%"
+        }
+      ],
+      "Rendimiento_Componentes_Evidencias": [
+        {
+          "Unidad_Analisis_ID": "M.Q1",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "53.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q2",
+          "Descripcion_Unidad": "UTILIZA LAS PROPIEDADES DE LOS NÚMEROS REALES PARA JUSTIFICAR PROCEDIMIENTOS Y DIFERENTES REPRESENTACIONES DE SUBCONJUNTOS DE ELLOS.",
+          "Porcentaje_Acierto_Grupo": "70%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q3",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "73.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q4",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "28.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q5",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "16.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q6",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "68.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q7",
+          "Descripcion_Unidad": "COMPRENDE Y UTILIZA FUNCIONES PARA MODELAR FENÓMENOS PERIÓDICOS Y JUSTIFICA LAS SOLUCIONES.",
+          "Porcentaje_Acierto_Grupo": "48.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q8",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "40%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q9",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "21.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q10",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "18.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q11",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "52.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q12",
+          "Descripcion_Unidad": "VALIDA PROCEDIMIENTOS Y ESTRATEGIAS MATEMÁTICAS UTILIZADAS PARA DAR SOLUCIÓN A PROBLEMAS.",
+          "Porcentaje_Acierto_Grupo": "46.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q13",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "20%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q14",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "83.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q15",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "48.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q16",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "27.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q17",
+          "Descripcion_Unidad": "VALIDA PROCEDIMIENTOS Y ESTRATEGIAS MATEMÁTICAS UTILIZADAS PARA DAR SOLUCIÓN A PROBLEMAS.",
+          "Porcentaje_Acierto_Grupo": "50%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q18",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "37.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q19",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRE INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTA ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "41.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q20",
+          "Descripcion_Unidad": "VALIDA PROCEDIMIENTOS Y ESTRATEGIAS MATEMÁTICAS UTILIZADAS PARA DAR SOLUCIÓN A PROBLEMAS.",
+          "Porcentaje_Acierto_Grupo": "47.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q21",
+          "Descripcion_Unidad": "COMPRENDE Y TRANSFORMA LA INFORMACIÓN CUANTITATIVA Y ESQUEMÁTICA PRESENTADA EN DISTINTOS FORMATOS.",
+          "Porcentaje_Acierto_Grupo": "84.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q22",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTAR ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS",
+          "Porcentaje_Acierto_Grupo": "31.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q23",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTAR ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS",
+          "Porcentaje_Acierto_Grupo": "53.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q24",
+          "Descripcion_Unidad": "VALIDA PROCEDIMIENTOS Y ESTRATEGIAS MATEMÁTICAS UTILIZADAS PARA DAR SOLUCIÓN A PROBLEMAS.",
+          "Porcentaje_Acierto_Grupo": "26.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q25",
+          "Descripcion_Unidad": "FRENTE A UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA, PLANTEA E IMPLEMENTAR ESTRATEGIAS QUE LLEVEN A SOLUCIONES ADECUADAS.",
+          "Porcentaje_Acierto_Grupo": "7.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q26",
+          "Descripcion_Unidad": "RESUELVE UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "36%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q27",
+          "Descripcion_Unidad": "ESTABLECE LA VALIDEZ O PERTINENCIA DE UNA SOLUCIÓN PROPUESTA A UN PROBLEMA DADO.",
+          "Porcentaje_Acierto_Grupo": "65.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q28",
+          "Descripcion_Unidad": "TRANSFORMA LA REPRESENTACIÓN DE UNA O MÁS PIEZAS DE INFORMACIÓN.",
+          "Porcentaje_Acierto_Grupo": "46.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q29",
+          "Descripcion_Unidad": "DISEÑA PLANES PARA LA SOLUCIÓN DE PROBLEMAS QUE INVOLUCRAN INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "68.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q30",
+          "Descripcion_Unidad": "ARGUMENTA A FAVOR O EN CONTRA DE UN PROCEDIMIENTO PARA RESOLVER UN PROBLEMA A LA LUZ DE CRITERIOS PRESENTADOS O ESTABLECIDOS.",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q31",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "27%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q32",
+          "Descripcion_Unidad": "EJECUTA UN PLAN DE SOLUCIÓN PARA UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "24.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q33",
+          "Descripcion_Unidad": "EJECUTA UN PLAN DE SOLUCIÓN PARA UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "42.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q34",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "36%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q35",
+          "Descripcion_Unidad": "TRANSFORMA LA REPRESENTACIÓN DE UNA O MÁS PIEZAS DE INFORMACIÓN.",
+          "Porcentaje_Acierto_Grupo": "27%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q36",
+          "Descripcion_Unidad": "PLANTEA AFIRMACIONES QUE SUSTENTAN O REFUTAN UNA INTERPRETACIÓN DADA A LA INFORMACIÓN DISPONIBLE EN EL MARCO DE LA SOLUCIÓN DE UN PROBLEMA.",
+          "Porcentaje_Acierto_Grupo": "18%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q37",
+          "Descripcion_Unidad": "EJECUTA UN PLAN DE SOLUCIÓN PARA UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "25.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q38",
+          "Descripcion_Unidad": "RESUELVE UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "16.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q39",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "69.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q40",
+          "Descripcion_Unidad": "DISEÑA PLANES PARA LA SOLUCIÓN DE PROBLEMAS QUE INVOLUCRAN INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "16.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q41",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "62.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q42",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "66.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q43",
+          "Descripcion_Unidad": "PLANTEA AFIRMACIONES QUE SUSTENTAN O REFUTAN UNA INTERPRETACIÓN DADA A LA INFORMACIÓN DISPONIBLE EN EL MARCO DE LA SOLUCIÓN DE UN PROBLEMA.",
+          "Porcentaje_Acierto_Grupo": "55.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q44",
+          "Descripcion_Unidad": "DA CUENTA DE LAS CARACTERÍSTICAS BÁSICAS DE LA INFORMACIÓN PRESENTADA EN DIFERENTES FORMATOS COMO SERIES, GRÁFICAS, TABLAS Y ESQUEMAS.",
+          "Porcentaje_Acierto_Grupo": "49.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q45",
+          "Descripcion_Unidad": "DISEÑA PLANES PARA LA SOLUCIÓN DE PROBLEMAS QUE INVOLUCRAN INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "84.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q46",
+          "Descripcion_Unidad": "ARGUMENTA A FAVOR O EN CONTRA DE UN PROCEDIMIENTO PARA RESOLVER UN PROBLEMA A LA LUZ DE CRITERIOS PRESENTADOS O ESTABLECIDOS.",
+          "Porcentaje_Acierto_Grupo": "51.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q47",
+          "Descripcion_Unidad": "EJECUTA UN PLAN DE SOLUCIÓN PARA UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "37.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q48",
+          "Descripcion_Unidad": "EJECUTA UN PLAN DE SOLUCIÓN PARA UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "10.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q49",
+          "Descripcion_Unidad": "TRANSFORMA LA REPRESENTACIÓN DE UNA O MÁS PIEZAS DE INFORMACIÓN.",
+          "Porcentaje_Acierto_Grupo": "36%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "M.Q50",
+          "Descripcion_Unidad": "RESUELVE UN PROBLEMA QUE INVOLUCRA INFORMACIÓN CUANTITATIVA O ESQUEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "34.8%",
+          "Preguntas_Asociadas": "1"
+        }
+      ]
+    },
+    {
+      "Area": "Lectura Crítica",
+      "Puntaje_Promedio_Area": "52.0",
+      "Rendimiento_Competencias": [
+        {
+          "Nombre_Competencia": "IDENTIFICAR Y ENTENDER LOS CONTENIDOS LOCALES QUE CONFORMAN UN TEXTO",
+          "Puntaje_Promedio": "47.7",
+          "Porcentaje_Acierto": "47.7%"
+        },
+        {
+          "Nombre_Competencia": "REFLEXIONAR A PARTIR DE UN TEXTO Y EVALÚAR SU CONTENIDO",
+          "Puntaje_Promedio": "55.6",
+          "Porcentaje_Acierto": "55.6%"
+        },
+        {
+          "Nombre_Competencia": "COMPRENDER CÓMO SE ARTICULAN LAS PARTES DE UN TEXTO PARA DARLE UN SENTIDO GLOBAL",
+          "Puntaje_Promedio": "53.3",
+          "Porcentaje_Acierto": "53.3%"
+        }
+      ],
+      "Rendimiento_Componentes_Evidencias": [
+        {
+          "Unidad_Analisis_ID": "LC.Q26",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "26.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q27",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "65.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q28",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "21.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q29",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "33.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q30",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "17.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q31",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "71.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q32",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "47.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q33",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "2.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q34",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "90%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q35",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "82.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q36",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "40%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q37",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "47.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q38",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "57.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q39",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "11.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q40",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "57.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q41",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "82.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q42",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "7.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q43",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "88.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q44",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "46.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q45",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "45.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q46",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "77.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q47",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "76.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q48",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "71.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q49",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "84.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q50",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "23.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q51",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "28.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q52",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "15.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q53",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "78.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q54",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "82.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q55",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "57.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q56",
+          "Descripcion_Unidad": "ESTABLECE LA VALIDEZ E IMPLICACIONES DE UN ENUNCIADO DE UN TEXTO (ARGUMENTATIVO O EXPOSITIVO).",
+          "Porcentaje_Acierto_Grupo": "86.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q57",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS DIFERENTES VOCES O SITUACIONES PRESENTES EN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "31.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q58",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "65.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q59",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "71.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q60",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "92.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q61",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "85.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q62",
+          "Descripcion_Unidad": "IDENTIFICA Y CARACTERIZA LAS IDEAS O AFIRMACIONES PRESENTES EN UN TEXTO INFORMATIVO.",
+          "Porcentaje_Acierto_Grupo": "85.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q63",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "18.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q64",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "41.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q65",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE UN TEXTO Y OTROS TEXTOS O ENUNCIADOS.",
+          "Porcentaje_Acierto_Grupo": "8.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "LC.Q66",
+          "Descripcion_Unidad": "ENTIENDE EL SIGNIFICADO DE LOS ELEMENTOS LOCALES QUE CONSTITUYEN UN TEXTO.",
+          "Porcentaje_Acierto_Grupo": "4.4%",
+          "Preguntas_Asociadas": "1"
+        }
+      ]
+    },
+    {
+      "Area": "Sociales y Ciudadanas",
+      "Puntaje_Promedio_Area": "65.5",
+      "Rendimiento_Competencias": [
+        {
+          "Nombre_Competencia": "PENSAMIENTO SOCIAL",
+          "Puntaje_Promedio": "63.9",
+          "Porcentaje_Acierto": "63.9%"
+        },
+        {
+          "Nombre_Competencia": "INTERPRETACIÓN Y ANÁLISIS DE PERSPECTIVAS",
+          "Puntaje_Promedio": "68.5",
+          "Porcentaje_Acierto": "68.5%"
+        },
+        {
+          "Nombre_Competencia": "PENSAMIENTO REFLEXIVO Y SISTÉMICO",
+          "Puntaje_Promedio": "64.6",
+          "Porcentaje_Acierto": "64.6%"
+        }
+      ],
+      "Rendimiento_Componentes_Evidencias": [
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q67",
+          "Descripcion_Unidad": "IDENTIFICA Y USA CONCEPTOS SOCIALES BÁSICOS (ECONÓMICOS, POLÍTICOS, CULTURALES Y GEOGRÁFICOS).",
+          "Porcentaje_Acierto_Grupo": "68.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q68",
+          "Descripcion_Unidad": "IDENTIFICA Y USA CONCEPTOS SOCIALES BÁSICOS (ECONÓMICOS, POLÍTICOS, CULTURALES Y GEOGRÁFICOS).",
+          "Porcentaje_Acierto_Grupo": "57.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q69",
+          "Descripcion_Unidad": "IDENTIFICA Y USA CONCEPTOS SOCIALES BÁSICOS (ECONÓMICOS, POLÍTICOS, CULTURALES Y GEOGRÁFICOS).",
+          "Porcentaje_Acierto_Grupo": "40%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q70",
+          "Descripcion_Unidad": "RECONOCE Y COMPARA PERSPECTIVAS DE ACTORES Y GRUPOS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "94.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q71",
+          "Descripcion_Unidad": "RECONOCE Y COMPARA PERSPECTIVAS DE ACTORES Y GRUPOS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "70%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q72",
+          "Descripcion_Unidad": "RECONOCE Y COMPARA PERSPECTIVAS DE ACTORES Y GRUPOS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "76.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q73",
+          "Descripcion_Unidad": "RECONOCE Y COMPARA PERSPECTIVAS DE ACTORES Y GRUPOS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "57.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q74",
+          "Descripcion_Unidad": "RECONOCE Y COMPARA PERSPECTIVAS DE ACTORES Y GRUPOS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "90%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q75",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "21.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q76",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "65.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q77",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "40%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q78",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "42.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q79",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "84.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q80",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "80%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q81",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "71.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q82",
+          "Descripcion_Unidad": "CONOCE EL MODELO DE ESTADO SOCIAL DE DERECHO Y SU APLICACIÓN EN COLOMBIA.",
+          "Porcentaje_Acierto_Grupo": "77.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q83",
+          "Descripcion_Unidad": "CONOCE EL MODELO DE ESTADO SOCIAL DE DERECHO Y SU APLICACIÓN EN COLOMBIA.",
+          "Porcentaje_Acierto_Grupo": "61.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q84",
+          "Descripcion_Unidad": "CONOCE EL MODELO DE ESTADO SOCIAL DE DERECHO Y SU APLICACIÓN EN COLOMBIA.",
+          "Porcentaje_Acierto_Grupo": "78.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q85",
+          "Descripcion_Unidad": "CONOCE EL MODELO DE ESTADO SOCIAL DE DERECHO Y SU APLICACIÓN EN COLOMBIA.",
+          "Porcentaje_Acierto_Grupo": "64.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q86",
+          "Descripcion_Unidad": "EVALÚA POSIBILIDADES Y LIMITACIONES DEL USO DE UNA FUENTE PARA APOYAR ARGUMENTOS O EXPLICACIONES.",
+          "Porcentaje_Acierto_Grupo": "75.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q87",
+          "Descripcion_Unidad": "EVALÚA POSIBILIDADES Y LIMITACIONES DEL USO DE UNA FUENTE PARA APOYAR ARGUMENTOS O EXPLICACIONES.",
+          "Porcentaje_Acierto_Grupo": "75.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q88",
+          "Descripcion_Unidad": "EVALÚA POSIBILIDADES Y LIMITACIONES DEL USO DE UNA FUENTE PARA APOYAR ARGUMENTOS O EXPLICACIONES.",
+          "Porcentaje_Acierto_Grupo": "56.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q89",
+          "Descripcion_Unidad": "EVALÚA POSIBILIDADES Y LIMITACIONES DEL USO DE UNA FUENTE PARA APOYAR ARGUMENTOS O EXPLICACIONES.",
+          "Porcentaje_Acierto_Grupo": "67.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q90",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "54.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S1.Q91",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "51.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q1",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "41.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q2",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "92.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q3",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "98.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q4",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "87.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q5",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "16.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q6",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "68.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q7",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "59.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q8",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "84.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q9",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "80.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q10",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES QUE HAY ENTRE DIMENSIONES PRESENTES EN UNA SITUACIÓN PROBLEMÁTICA.",
+          "Porcentaje_Acierto_Grupo": "56.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q11",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "73%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q12",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "69.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q13",
+          "Descripcion_Unidad": "RECONOCE QUE LAS COSMOVISIONES, IDEOLOGÍAS Y ROLES SOCIALES, INFLUYEN EN DIFERENTES ARGUMENTOS, POSICIONES Y CONDUCTAS.",
+          "Porcentaje_Acierto_Grupo": "87.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q14",
+          "Descripcion_Unidad": "ANALIZA LOS EFECTOS EN DISTINTAS DIMENSIONES QUE TENDRÍA UNA POSIBLE INTERVENCIÓN.",
+          "Porcentaje_Acierto_Grupo": "74.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q15",
+          "Descripcion_Unidad": "ANALIZA LOS EFECTOS EN DISTINTAS DIMENSIONES QUE TENDRÍA UNA POSIBLE INTERVENCIÓN.",
+          "Porcentaje_Acierto_Grupo": "86.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q16",
+          "Descripcion_Unidad": "ANALIZA LOS EFECTOS EN DISTINTAS DIMENSIONES QUE TENDRÍA UNA POSIBLE INTERVENCIÓN.",
+          "Porcentaje_Acierto_Grupo": "68.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q17",
+          "Descripcion_Unidad": "ANALIZA LOS EFECTOS EN DISTINTAS DIMENSIONES QUE TENDRÍA UNA POSIBLE INTERVENCIÓN.",
+          "Porcentaje_Acierto_Grupo": "74.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q18",
+          "Descripcion_Unidad": "ANALIZA MODELOS CONCEPTUALES Y SUS USOS EN DECISIONES SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "56.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q19",
+          "Descripcion_Unidad": "ANALIZA MODELOS CONCEPTUALES Y SUS USOS EN DECISIONES SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "56.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q20",
+          "Descripcion_Unidad": "ANALIZA MODELOS CONCEPTUALES Y SUS USOS EN DECISIONES SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "53.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q21",
+          "Descripcion_Unidad": "ANALIZA MODELOS CONCEPTUALES Y SUS USOS EN DECISIONES SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "69.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q22",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "47.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q23",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "49.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q24",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "77.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "SC.S2.Q25",
+          "Descripcion_Unidad": "LOCALIZA EN EL TIEMPO Y EN EL ESPACIO EVENTOS HISTÓRICOS Y PRÁCTICAS SOCIALES.",
+          "Porcentaje_Acierto_Grupo": "40.4%",
+          "Preguntas_Asociadas": "1"
+        }
+      ]
+    },
+    {
+      "Area": "Ciencias Naturales",
+      "Puntaje_Promedio_Area": "28.4",
+      "Rendimiento_Competencias": [
+        {
+          "Nombre_Competencia": "USO COMPRENSIVO DEL CONOCIMIENTO CIENTÍFICO",
+          "Puntaje_Promedio": "27.9",
+          "Porcentaje_Acierto": "27.9%"
+        },
+        {
+          "Nombre_Competencia": "INDAGACIÓN",
+          "Puntaje_Promedio": "27.3",
+          "Porcentaje_Acierto": "27.3%"
+        },
+        {
+          "Nombre_Competencia": "EXPLICACIÓN DE FENÓMENOS",
+          "Puntaje_Promedio": "30.6",
+          "Porcentaje_Acierto": "30.6%"
+        }
+      ],
+      "Rendimiento_Componentes_Evidencias": [
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q92",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE FENÓMENOS BIOLÓGICOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "23.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q93",
+          "Descripcion_Unidad": "DA POSIBLES EXPLICACIONES DE EVENTOS O FENÓMENOS CONSISTENTES CON CONCEPTOS DE LA CIENCIA.",
+          "Porcentaje_Acierto_Grupo": "31.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q94",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "22.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q95",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "72.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q96",
+          "Descripcion_Unidad": "EXPLICA CÓMO LA EXPLOTACIÓN DE UN RECURSO O EL USO DE UNA TECNOLOGÍA TIENE EFECTOS POSITIVOS O NEGATIVOS EN LAS PERSONAS Y EN EL ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "44.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q97",
+          "Descripcion_Unidad": "RECONOCE POSIBLES CAMBIOS EN EL ENTORNO POR LA EXPLOTACIÓN DEUN RECURSO O EL USO DE UNA TECNOLOGÍA",
+          "Porcentaje_Acierto_Grupo": "31.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q98",
+          "Descripcion_Unidad": "RECONOCE LAS RAZONES POR LAS CUALES LA MATERIA SE PUEDE DIFERENCIAR SEGÚN SU ESTRUCTURA Y PROPIEDADES, Y JUSTIFICA LAS DIFERENCIAS EXISTENTES ENTRE DISTINTOS ELEMENTOS, COMPUESTOS Y MEZCLAS",
+          "Porcentaje_Acierto_Grupo": "17.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q99",
+          "Descripcion_Unidad": "HACE PREDICCIONES BASADO EN INFORMACIÓN, PATRONES Y REGULARIDADES.",
+          "Porcentaje_Acierto_Grupo": "43.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q100",
+          "Descripcion_Unidad": "RELACIONA LOS DISTINTOS FACTORES QUE DETERMINAN LA DINÁMICA DE UN SISTEMA O FENÓMENO (CONDICIONES INICIALES, PARÁMETROS Y CONSTANTES) PARA IDENTIFICAR SU COMPORTAMIENTO, TENIENDO EN CUENTA LAS LEYES DE LA F ÍSICA",
+          "Porcentaje_Acierto_Grupo": "42.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q101",
+          "Descripcion_Unidad": "HACE PREDICCIONES BASADO EN INFORMACIÓN, PATRONES Y REGULARIDADES.",
+          "Porcentaje_Acierto_Grupo": "25.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q102",
+          "Descripcion_Unidad": "INTERPRETA Y ANALIZA DATOS REPRESENTADOS EN TEXTO, GRÁFICAS, DIBUJOS, DIAGRAMAS O TABLAS.",
+          "Porcentaje_Acierto_Grupo": "14.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q103",
+          "Descripcion_Unidad": "ELABORA EXPLICACIONES AL RELACIONAR LAS VARIABLES DE ESTADO QUE DESCRIBEN UN SISTEMA, ARGUMENTANDO A PARTIR DE LOS MODELOS BÁSICOS DE CINEMÁTICA Y DINÁMICA NEWTONIANA.",
+          "Porcentaje_Acierto_Grupo": "27.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q104",
+          "Descripcion_Unidad": "ELABORA EXPLICACIONES AL RELACIONAR LAS VARIABLES DE ESTADO QUE DESCRIBEN UN SISTEMA, ARGUMENTANDO A PARTIR DE LOS MODELOS BÁSICOS DE CINEMÁTICA Y DINÁMICA NEWTONIANA.",
+          "Porcentaje_Acierto_Grupo": "28.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q105",
+          "Descripcion_Unidad": "ANALIZA Y USA MODELOS BIOLÓGICOS PARA COMPRENDER LA DINÁMICA QUE SE DA EN LO VIVO Y EN EL ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "44.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q106",
+          "Descripcion_Unidad": "INTERPRETA Y ANALIZA DATOS REPRESENTADOS EN TEXTO, GRÁFICAS, DIBUJOS, DIAGRAMAS O TABLAS.",
+          "Porcentaje_Acierto_Grupo": "27.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q107",
+          "Descripcion_Unidad": "INTERPRETA Y ANALIZA DATOS REPRESENTADOS EN TEXTO, GRÁFICAS, DIBUJOS, DIAGRAMAS O TABLAS.",
+          "Porcentaje_Acierto_Grupo": "34.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q108",
+          "Descripcion_Unidad": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ORGANISMOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "35.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q109",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "16.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q110",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "25.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q111",
+          "Descripcion_Unidad": "ANALIZA ASPECTOS DE LOS ECOSISTEMAS Y DA RAZÓN DE CÓMO FUNCIONAN, DE SUS INTERRELACIONES CON LOS FACTORES BIÓTICOS Y ABIÓTICOS Y DE SUS EFECTOS AL MODIFICARSE ALGUNA VARIABLE INTERNA.",
+          "Porcentaje_Acierto_Grupo": "27.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q112",
+          "Descripcion_Unidad": "ANALIZA Y USA MODELOS BIOLÓGICOS PARA COMPRENDER LA DINÁMICA QUE SE DA EN LO VIVO Y EN EL ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "27.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q113",
+          "Descripcion_Unidad": "RECONOCE LAS RAZONES POR LAS CUALES LA MATERIA SE PUEDE DIFERENCIAR SEGÚN SU ESTRUCTURA Y PROPIEDADES, Y JUSTIFICA LAS DIFERENCIAS EXISTENTES ENTRE DISTINTOS ELEMENTOS, COMPUESTOS Y MEZCLAS",
+          "Porcentaje_Acierto_Grupo": "22.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q114",
+          "Descripcion_Unidad": "DA LAS RAZONES POR LAS CUÁLES UNA REACCIÓN DESCRIBE UN FENÓMENO Y JUSTIFICA LAS RELACIONES CUANTITATIVAS EXISTENTES, TENIENDO EN CUENTA LA LEY DE CONSERVACIÓN DE LA MASA Y CARGA.",
+          "Porcentaje_Acierto_Grupo": "25.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q115",
+          "Descripcion_Unidad": "ELABORA EXPLICACIONES AL RELACIONAR LAS VARIABLES DE ESTADO QUE DESCRIBEN UN SISTEMA, ARGUMENTANDO A PARTIR DE LOS MODELOS BÁSICOS DE CINEMÁTICA Y DINÁMICA NEWTONIANA.",
+          "Porcentaje_Acierto_Grupo": "37.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q116",
+          "Descripcion_Unidad": "COMUNICA DE FORMA APROPIADA EL PROCESO Y LOS RESULTADOS DE INVESTIGACIÓN EN CIENCIAS NATURALES.",
+          "Porcentaje_Acierto_Grupo": "30%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q117",
+          "Descripcion_Unidad": "RECONOCE LOS ATRIBUTOS QUE DEFINEN CIERTOS PROCESOS FISICOQUÍMICOS SIMPLES (SEPARACIÓN DE MEZCLAS, SOLUBILIDAD, GASES IDEALES, CAMBIOS DE FASE) Y DA RAZÓN DE LA MANERA EN QUE OCURREN.",
+          "Porcentaje_Acierto_Grupo": "38.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q118",
+          "Descripcion_Unidad": "RECONOCE LA NECESIDAD DE REGISTRAR Y CLASIFICAR LA INFORMACIÓN PARA REALIZAR UN BUEN ANÁLISIS.",
+          "Porcentaje_Acierto_Grupo": "33.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q119",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE CONCEPTOS FISICOQUÍMICOS SIMPLES (SEPARACIÓN DE MEZCLAS, SOLUBILIDAD, GASES IDEALES) CON DISTINTOS FENÓMENOS NATURALES.",
+          "Porcentaje_Acierto_Grupo": "18.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S1.Q120",
+          "Descripcion_Unidad": "HACE PREDICCIONES BASADO EN INFORMACIÓN, PATRONES Y REGULARIDADES.",
+          "Porcentaje_Acierto_Grupo": "22.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q51",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "37.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q52",
+          "Descripcion_Unidad": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ORGANISMOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "48.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q53",
+          "Descripcion_Unidad": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ORGANISMOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "24.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q54",
+          "Descripcion_Unidad": "HACE PREDICCIONES BASADO EN INFORMACIÓN, PATRONES Y REGULARIDADES.",
+          "Porcentaje_Acierto_Grupo": "3.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q55",
+          "Descripcion_Unidad": "HACE PREDICCIONES BASADO EN INFORMACIÓN, PATRONES Y REGULARIDADES.",
+          "Porcentaje_Acierto_Grupo": "34.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q56",
+          "Descripcion_Unidad": "DA POSIBLES EXPLICACIONES DE EVENTOS O FENOMENOS CONSISTENTES CON CONCEPTOS DE LA CIENCIA.",
+          "Porcentaje_Acierto_Grupo": "20.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q57",
+          "Descripcion_Unidad": "IDENTIFICA LOS DIFERENTES TIPOS DE FUERZAS QUE ACTÚAN SOBRE LOS CUERPOS QUE CONFORMAN UN SISTEMA.",
+          "Porcentaje_Acierto_Grupo": "19.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q58",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "25.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q59",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "14.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q60",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "27%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q61",
+          "Descripcion_Unidad": "DA POSIBLES EXPLICACIONES DE EVENTOS O FENÓMENOS CONSISTENTES CON CONCEPTOS DE LA CIENCIA.",
+          "Porcentaje_Acierto_Grupo": "24.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q62",
+          "Descripcion_Unidad": "EXPLICA ALGUNOS PRINCIPIOS PARA MANTENER LA SALUD INDIVIDUAL Y LA PÚBLICA BASADO EN PRINCIPIOS BIOLÓGICOS, QUÍMICOS Y F ÍSICOS",
+          "Porcentaje_Acierto_Grupo": "59.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q63",
+          "Descripcion_Unidad": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ORGANISMOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "46.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q64",
+          "Descripcion_Unidad": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ORGANISMOS PARA COMPRENDER LA DINÁMICA DE LO VIVO.",
+          "Porcentaje_Acierto_Grupo": "30.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q65",
+          "Descripcion_Unidad": "ANALIZA Y USA MODELOS BIOLÓGICOS PARA COMPRENDER LA DINÁMICA QUE SE DA EN LO VIVO Y EN EL ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "27%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q66",
+          "Descripcion_Unidad": "DA POSIBLES EXPLICACIONES DE EVENTOS O FENÓMENOS CONSISTENTES CON CONCEPTOS DE LA CIENCIA.",
+          "Porcentaje_Acierto_Grupo": "22.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q67",
+          "Descripcion_Unidad": "IDENTIFICA LAS PROPIEDADES Y ESTRUCTURA DE LA MATERIA Y DIFERENCIA ELEMENTOS, COMPUESTOS Y MEZCLAS.",
+          "Porcentaje_Acierto_Grupo": "21.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q68",
+          "Descripcion_Unidad": "RELACIONA LOS DISTINTOS FACTORES QUE DETERMINAN LA DINÁMICA DE UN SISTEMA O FENÓMENO (CONDICIONES INICIALES, PARÁMETROS Y CONSTANTES) PARA IDENTIFICAR SU COMPORTAMIENTO, TENIENDO EN CUENTA LAS LEYES DE LA F ÍSICA",
+          "Porcentaje_Acierto_Grupo": "11.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q69",
+          "Descripcion_Unidad": "ELABORA CONCLUSIONES A PARTIR DE INFORMACIÓN O EVIDENCIAS QUE LAS RESPALDEN.",
+          "Porcentaje_Acierto_Grupo": "19.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q70",
+          "Descripcion_Unidad": "RELACIONA LOS TIPOS DE ENERGÍA PRESENTES EN UN OBJETO CON LAS INTERACCIONES QUE PRESENTA EL SISTEMA CON SU ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "16.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q71",
+          "Descripcion_Unit": "IDENTIFICA CARACTERÍSTICAS DE ALGUNOS PROCESOS QUE SE DAN EN LOS ECOSISTEMAS PARA COMPRENDER LA DINÁMICA QUE SE DAN A SU INTERIOR.",
+          "Porcentaje_Acierto_Grupo": "19.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q72",
+          "Descripcion_Unidad": "ANALIZA Y USA MODELOS BIOLÓGICOS PARA COMPRENDER LA DINÁMICA QUE SE DA EN LO VIVO Y EN EL ENTORNO.",
+          "Porcentaje_Acierto_Grupo": "21.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q73",
+          "Descripcion_Unidad": "IDENTIFICA Y USA MODELOS QUÍMICOS PARA COMPRENDER FENÓMENOS PARTICULARES DE LA NATURALEZA.",
+          "Porcentaje_Acierto_Grupo": "12.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q74",
+          "Descripcion_Unidad": "IDENTIFICA Y USA MODELOS QUÍMICOS PARA COMPRENDER FENÓMENOS PARTICULARES DE LA NATURALEZA.",
+          "Porcentaje_Acierto_Grupo": "28.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q75",
+          "Descripcion_Unidad": "ELABORA EXPLICACIONES AL RELACIONAR LAS VARIABLES DE ESTADO QUE DESCRIBEN UN SISTEMA, ARGUMENTANDO A PARTIR DE LOS MODELOS BÁSICOS DE ONDAS.",
+          "Porcentaje_Acierto_Grupo": "24.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q76",
+          "Descripcion_Unidad": "ELABORA EXPLICACIONES AL RELACIONAR LAS VARIABLES DE ESTADO QUE DESCRIBEN UN SISTEMA ELECTRÓNICO, ARGUMENTANDO A PARTIR DE LOS MODELOS BÁSICOS DE CIRCUITOS.",
+          "Porcentaje_Acierto_Grupo": "22.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q77",
+          "Descripcion_Unidad": "ESTABLECE RELACIONES ENTRE CONCEPTOS FISICOQUÍMICOS SIMPLES (SEPARACIÓN DE MEZCLAS, SOLUBILIDAD, GASES IDEALES) CON DISTINTOS FENÓMENOS NATURALES.",
+          "Porcentaje_Acierto_Grupo": "30.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q78",
+          "Descripcion_Unidad": "IDENTIFICA LAS PROPIEDADES Y ESTRUCTURA DE LA MATERIA Y DIFERENCIA ELEMENTOS, COMPUESTOS Y MEZCLAS.",
+          "Porcentaje_Acierto_Grupo": "33.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "CN.S2.Q79",
+          "Descripcion_Unidad": "IDENTIFICA LAS CARACTERÍSTICAS FUNDAMENTALES DE LAS ONDAS, ASÍ COMO LAS VARIABLES Y PARÁMETROS QUE AFECTAN ESTAS CARACTERÍSTICAS EN UN MEDIO DE PROPAGACIÓN.",
+          "Porcentaje_Acierto_Grupo": "37.1%",
+          "Preguntas_Asociadas": "1"
+        }
+      ]
+    },
+    {
+      "Area": "Inglés",
+      "Puntaje_Promedio_Area": "44.9",
+      "Rendimiento_Competencias": [
+        {
+          "Nombre_Competencia": "LINGÜÍSTICA",
+          "Puntaje_Promedio": "48.9",
+          "Porcentaje_Acierto": "48.9%"
+        },
+        {
+          "Nombre_Competencia": "PRAGMÁTICA",
+          "Puntaje_Promedio": "43.3",
+          "Porcentaje_Acierto": "43.3%"
+        },
+        {
+          "Nombre_Competencia": "SOCIOLINGÜÍSTICO",
+          "Puntaje_Promedio": "37.1",
+          "Porcentaje_Acierto": "37.1%"
+        }
+      ],
+      "Rendimiento_Componentes_Evidencias": [
+        {
+          "Unidad_Analisis_ID": "IN.Q80",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "18%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q81",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "25.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q82",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "29.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q83",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "60.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q84",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "46.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q85",
+          "Descripcion_Unidad": "SIGNIFICANTES Y SIGNIFICADOS DE OBJETOS COTIDIANOS.",
+          "Porcentaje_Acierto_Grupo": "38.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q86",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "75.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q87",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "77.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q88",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q89",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "82%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q90",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "47.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q91",
+          "Descripcion_Unidad": "ANUNCIOS Y LETREROS EN CONTEXTO",
+          "Porcentaje_Acierto_Grupo": "78.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q92",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q93",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "48.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q94",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "29.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q95",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "32.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q96",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "31.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q97",
+          "Descripcion_Unidad": "CONVERSACIONES",
+          "Porcentaje_Acierto_Grupo": "41.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q98",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "24.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q99",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "49.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q100",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "52.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q101",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "55.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q102",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "49.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q103",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "40.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q104",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "29.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q105",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q106",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "48.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q107",
+          "Descripcion_Unidad": "COMPLETAR LECTURAS",
+          "Porcentaje_Acierto_Grupo": "60.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q108",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "57.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q109",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "44.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q110",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "59.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q111",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "69.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q112",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "65.2%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q113",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "59.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q114",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "64%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q115",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "67.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q116",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "46.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q117",
+          "Descripcion_Unidad": "COMPRENSIÓN LITERAL DE TEXTOS.",
+          "Porcentaje_Acierto_Grupo": "49.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q118",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "53.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q119",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "42.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q120",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "40.4%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q121",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "44.9%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q122",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "41.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q123",
+          "Descripcion_Unidad": "COMPRENSIÓN INFERENCIAL DE TEXTOS",
+          "Porcentaje_Acierto_Grupo": "51.7%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q124",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "36%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q125",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q126",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "19.1%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q127",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "21.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q128",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "34.8%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q129",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "39.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q130",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "32.6%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q131",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "18%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q132",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "21.3%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q133",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "22.5%",
+          "Preguntas_Asociadas": "1"
+        },
+        {
+          "Unidad_Analisis_ID": "IN.Q134",
+          "Descripcion_Unidad": "VOCABULARIO EN TEXTOS COMPLEJOS",
+          "Porcentaje_Acierto_Grupo": "34.8%",
+          "Preguntas_Asociadas": "1"
+        }
+      ]
+    }
+  ]
+}
