@@ -6,7 +6,37 @@
 // -----------------------------------------------------------------
 // 1. CONSTANTES Y CONFIGURACIÓN (RANGOS Y REGLAS DE ANÁLISIS)
 // -----------------------------------------------------------------
+// =================================================================
+// js/report_engine.js | PARTE 1.1: CONFIGURACIÓN DE RUTAS
+// UBICACIÓN: Después de las constantes de Rangos y Sugerencias
+// =================================================================
 
+const DANE_COLEGIO = '308001001251'; // El nombre de la carpeta/base
+const ARCHIVOS_SIMULACROS = {
+    'Gamma_10': `${DANE_COLEGIO}_Gamma_10.json`,
+    'Epsilon_10': `${DANE_COLEGIO}_Epsilon_10.json`,
+    'Dzeta_10': `${DANE_COLEGIO}_Dzeta_10.json`
+};
+const ARCHIVOS_MATRICES = {
+    'Matemáticas': 'Matriz_mat.json',
+    'Lectura Crítica': 'Matriz_lectura.json',
+    'Ciencias Naturales': 'Matriz_Nat.json',
+    'Sociales y Ciudadanas': 'Matriz_soc.json',
+    'Inglés': 'Matriz_ing.json'
+};
+const ARCHIVO_ICFES = `${DANE_COLEGIO}_icfes.json`;
+const ARCHIVO_RANGOS = 'Rangos_Pruebas.json'; 
+// NOTA: Asumimos que el EXCEL/CSV se cargará manualmente, ya que es el único que cambia de formato.
+// Por ahora, no lo incluimos en la carga estática.
+
+// Funciónde ayuda para cargar cualquier JSON de la ruta
+async function cargarJSON(ruta) {
+    const response = await fetch(ruta);
+    if (!response.ok) {
+        throw new Error(`Error al cargar ${ruta}: ${response.statusText}`);
+    }
+    return response.json();
+}
 // Rangos de Desempeño (Validado por Rangos_Pruebas.json)
 const RANGOS_DESEMPENIO = {
     "niveles_global": [
