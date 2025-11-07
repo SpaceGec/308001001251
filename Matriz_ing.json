@@ -1,0 +1,58 @@
+[
+  {
+    "Area": "Inglés",
+    "Competencia": "Conocimiento Lexical (Parte 1)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "Para ello, los evaluados deben comprender una serie de descripciones con el fin de relacionarlas con una lista de palabras. Por tanto, los evaluados deben buscar la relación entre una lista de siete palabras disponibles, clasificadas de la letra A a la letra G, y las preguntas de esta parte, las cuales describen una de las siete palabras disponibles de la lista. Cabe indicar que se presentan más palabras (A a G) de las que los evaluados necesitan.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "Para ello, los evaluados deben comprender una serie de descripciones con el fin de relacionarlas con una lista de palabras. Por tanto, los evaluados deben buscar la relación entre una lista de siete palabras disponibles, clasificadas de la letra A a la letra G, y las preguntas de esta parte, las cuales describen una de las siete palabras disponibles de la lista. Cabe indicar que se presentan más palabras (A a G) de las que los evaluados necesitan."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Conocimiento Pragmático (Parte 2)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "En particular, los evaluados deben reconocer el propósito comunicativo de un aviso y el lugar donde este puede aparecer, según el propósito. Para ello, los evaluados deben decidir en qué sitio se pueden encontrar los avisos que aparecen inicialmente. En cada pregunta hay tres opciones de respuesta: A, B o C, de las cuales, deberán marcar solo una en la hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "En particular, los evaluados deben reconocer el propósito comunicativo de un aviso y el lugar donde este puede aparecer, según el propósito. Para ello, los evaluados deben decidir en qué sitio se pueden encontrar los avisos que aparecen inicialmente. En cada pregunta hay tres opciones de respuesta: A, B o C, de las cuales, deberán marcar solo una en la hoja de respuestas."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Conocimiento Comunicativo (Parte 3)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "En concreto, los evaluados deben elegir la intervención más adecuada que un interlocutor 1 haría frente a lo dicho por un interlocutor 2. Lo anterior se relaciona con la pertinencia del lenguaje usado en situaciones particulares, recreadas en pequeñas conversaciones. En consecuencia, en esta parte, el evaluado debe completar conversaciones cortas, seleccionando la respuesta correcta dadas y marcándola en las tres opciones de la hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "En concreto, los evaluados deben elegir la intervención más adecuada que un interlocutor 1 haría frente a lo dicho por un interlocutor 2. Lo anterior se relaciona con la pertinencia del lenguaje usado en situaciones particulares, recreadas en pequeñas conversaciones. En consecuencia, en esta parte, el evaluado debe completar conversaciones cortas, seleccionando la respuesta correcta dadas y marcándola en las tres opciones de la hoja de respuestas."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Conocimiento Gramatical (Parte 4)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "Puntualmente, los evaluados deben elegir las palabras más adecuadas para completar un texto. Para ello, los evaluados deben leer y prestar atención a una serie de espacios, puesto que, para cada uno de estos, se debe seleccionar la palabra correcta entre las tres opciones presentadas (A, B o C) y marcarla en la hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "Puntualmente, los evaluados deben elegir las palabras más adecuadas para completar un texto. Para ello, los evaluados deben leer y prestar atención a una serie de espacios, puesto que, para cada uno de estos, se debe seleccionar la palabra correcta entre las tres opciones presentadas (A, B o C) y marcarla en la hoja de respuestas."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Comprensión de Lectura Literal (Parte 5)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "Este ejercicio consiste en que los evaluados seleccionen la paráfrasis que permite responder correctamente a cada pregunta planteada en un texto. Los evaluados deben seleccionar la respuesta correcta, para cada pregunta, entre tres opciones (A, B o C) y señalarla en la hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "Este ejercicio consiste en que los evaluados seleccionen la paráfrasis que permite responder correctamente a cada pregunta planteada en un texto. Los evaluados deben seleccionar la respuesta correcta, para cada pregunta, entre tres opciones (A, B o C) y señalarla en la hoja de respuestas."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Proceso de Lectura Inferencial (Parte 6)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "En esta parte se plantean distintas preguntas sobre la intención del autor y los aspectos generales y particulares destacables del texto. El evaluado debe seleccionar la respuesta correcta, para cada pregunta, entre cuatro opciones (A, B, C o D) y marcarla en su hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "En esta parte se plantean distintas preguntas sobre la intención del autor y los aspectos generales y particulares destacables del texto. El evaluado debe seleccionar la respuesta correcta, para cada pregunta, entre cuatro opciones (A, B, C o D) y marcarla en su hoja de respuestas."
+  },
+  {
+    "Area": "Inglés",
+    "Competencia": "Conocimiento Gramatical y Lexical (Parte 7)",
+    "Afirmacion_ID": "",
+    "Afirmacion_Descripcion": "El ejercicio consiste en elegir las palabras más adecuadas para completar el texto. Para ello, se debe seleccionar la palabra correcta, es decir, aquella que completa cada uno de los espacios en el texto presentado, entre cuatro opciones dadas (A, B, C o D) y marcarla en la hoja de respuestas.",
+    "Evidencia_ID": "",
+    "Evidencia_Descripcion": "El ejercicio consiste en elegir las palabras más adecuadas para completar el texto. Para ello, se debe seleccionar la palabra correcta, es decir, aquella que completa cada uno de los espacios en el texto presentado, entre cuatro opciones dadas (A, B, C o D) y marcarla en la hoja de respuestas."
+  }
+]

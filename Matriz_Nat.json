@@ -1,0 +1,346 @@
+[
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Analiza el potencial del uso de recursos naturales o artefactos y sus efectos sobre el entorno y la salud, así como las posibilidades de desarrollo para las comunidades.",
+    "Evidencia_ID": 1.1,
+    "Evidencia_Descripcion": "Explica algunos principios para mantener la salud individual y la pública basado en principios biológicos, químicos y físicos."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Analiza el potencial del uso de recursos naturales o artefactos y sus efectos sobre el entorno y la salud, así como las posibilidades de desarrollo para las comunidades.",
+    "Evidencia_ID": 1.2,
+    "Evidencia_Descripcion": "Explica cómo la explotación de un recurso o el uso de una tecnología tiene efectos positivos o negativos en las personas y en el entorno."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Analiza el potencial del uso de recursos naturales o artefactos y sus efectos sobre el entorno y la salud, así como las posibilidades de desarrollo para las comunidades.",
+    "Evidencia_ID": 1.3,
+    "Evidencia_Descripcion": "Explica el uso correcto y seguro de una tecnología o artefacto en un contexto específico."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.1,
+    "Evidencia_Descripcion": "Da las razones por las cuales una reacción describe un fenómeno y justifica las relaciones cuantitativas existentes, teniendo en cuenta la ley de conservación de la masa y carga."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.2,
+    "Evidencia_Descripcion": "Reconoce las razones por las cuales la materia se puede diferenciar, según su estructura y propiedades, y justifica las diferencias existentes entre distintos elementos, compuestos y mezclas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.3,
+    "Evidencia_Descripcion": "Reconoce los atributos que definen ciertos procesos fisicoquímicos simples (separación de mezclas, solubilidad, gases ideales, cambios de fase) y da razón de la manera en que ocurren."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.4,
+    "Evidencia_Descripcion": "Elabora explicaciones al relacionar las variables de estado que describen un sistema electrónico, argumentando a partir de los modelos básicos de circuitos."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.5,
+    "Evidencia_Descripcion": "Elabora explicaciones al relacionar las variables de estado que describen un sistema, argumentando a partir de los modelos básicos de cinemática y dinámica newtoniana."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.6,
+    "Evidencia_Descripcion": "Elabora explicaciones al relacionar las variables de estado que describen un sistema, argumentando a partir de los modelos básicos de la termodinámica."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.7,
+    "Evidencia_Descripcion": "Elabora explicaciones al relacionar las variables de estado que describen un sistema, argumentando a partir de los modelos básicos de ondas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.8,
+    "Evidencia_Descripcion": "Analiza aspectos de los ecosistemas y da razón de cómo funcionan, de sus interrelaciones con los factores bióticos y abióticos y de sus efectos al modificarse alguna variable interna."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Explica cómo ocurren algunos fenómenos de la naturaleza basado en observaciones, patrones y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 2.9,
+    "Evidencia_Descripcion": "Analiza la dinámica interna de los organismos y da razón de cómo funcionan sus componentes por separado y en conjunto para mantener la vida en el organismo."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Modela fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas.",
+    "Evidencia_ID": 3.1,
+    "Evidencia_Descripcion": "Usa modelos físicos basados en dinámica clásica para comprender un fenómeno particular en un sistema."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Modela fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas.",
+    "Evidencia_ID": 3.2,
+    "Evidencia_Descripcion": "Identifica y usa modelos químicos para comprender fenómenos particulares de la naturaleza."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Explicación de fenómenos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Modela fenómenos de la naturaleza basado en el análisis de variables, la relación entre dos o más conceptos del conocimiento científico y de la evidencia derivada de investigaciones científicas.",
+    "Evidencia_ID": 3.3,
+    "Evidencia_Descripcion": "Analiza y usa modelos biológicos para comprender la dinámica que se da en lo vivo y en el entorno."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.1,
+    "Evidencia_Descripcion": "Relaciona los componentes de un circuito en serie y en paralelo con sus respectivos voltajes y corrientes."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.2,
+    "Evidencia_Descripcion": "Relaciona los distintos factores que determinan la dinámica de un sistema o fenómeno (condiciones iniciales, parámetros y constantes) para identificar su comportamiento, teniendo en cuenta las leyes de la física."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.3,
+    "Evidencia_Descripcion": "Relaciona los tipos de energía presentes en un objeto con las interacciones que presenta el sistema con su entorno."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.4,
+    "Evidencia_Descripcion": "Establece relaciones entre fenómenos biológicos para comprender la dinámica de lo vivo."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.5,
+    "Evidencia_Descripcion": "Establece relaciones entre fenómenos biológicos para comprender su entorno."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.6,
+    "Evidencia_Descripcion": "Diferencia distintos tipos de reacciones químicas y realiza de manera adecuada cálculos teniendo en cuenta la ley de conservación de la masa y carga."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.7,
+    "Evidencia_Descripcion": "Establece relaciones entre conceptos fisicoquímicos simples (separación de mezclas, solubilidad, gases ideales) con distintos fenómenos naturales."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Asocia fenómenos naturales con conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 4.8,
+    "Evidencia_Descripcion": "Establece relaciones entre las propiedades y estructura de la materia con la formación de iones y moléculas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.1,
+    "Evidencia_Descripcion": "Identifica las características fundamentales de las ondas, así como las variables y parámetros que afectan estas características en un medio de propagación."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.2,
+    "Evidencia_Descripcion": "Identifica las formas de energía presentes en un fenómeno físico y las transformaciones que se dan entre ellas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.3,
+    "Evidencia_Descripcion": "Identifica los diferentes tipos de fuerzas que actúan sobre los cuerpos que conforman un sistema."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.4,
+    "Evidencia_Descripcion": "Identifica características de algunos procesos que se da en los ecosistemas para comprender la dinámica que se dan a su interior."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.5,
+    "Evidencia_Descripcion": "Identifica características de algunos procesos que se dan en los organismos para comprender la dinámica de lo vivo."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.6,
+    "Evidencia_Descripcion": "Identifica las propiedades y estructura de la materia y diferencia elementos, compuestos y mezclas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Uso comprensivo del conocimiento científico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Identifica las características de algunos fenómenos de la naturaleza basado en el análisis de información y conceptos propios del conocimiento científico.",
+    "Evidencia_ID": 5.7,
+    "Evidencia_Descripcion": "Reconoce posibles cambios en el entorno por la explotación de un recurso o el uso de una tecnología."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 6,
+    "Afirmacion_Descripcion": "Comprende que a partir de la investigación científica se construyen explicaciones sobre el mundo natural.",
+    "Evidencia_ID": 6.1,
+    "Evidencia_Descripcion": "Analiza qué tipo de pregunta puede ser contestada a partir del contexto de una investigación científica."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 6,
+    "Afirmacion_Descripcion": "Comprende que a partir de la investigación científica se construyen explicaciones sobre el mundo natural.",
+    "Evidencia_ID": 6.2,
+    "Evidencia_Descripcion": "Reconoce la importancia de la evidencia para comprender fenómenos naturales."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 7,
+    "Afirmacion_Descripcion": "Deriva conclusiones para algunos fenómenos de la naturaleza, basándose en conocimientos científicos y en la evidencia de su propia investigación y la de otros.",
+    "Evidencia_ID": 7.1,
+    "Evidencia_Descripcion": "Comunica de forma apropiada el proceso y los resultados de investigación en ciencias naturales."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 7,
+    "Afirmacion_Descripcion": "Deriva conclusiones para algunos fenómenos de la naturaleza, basándose en conocimientos científicos y en la evidencia de su propia investigación y la de otros.",
+    "Evidencia_ID": 7.2,
+    "Evidencia_Descripcion": "Determina si los resultados derivados de una investigación son suficientes y pertinentes para sacar conclusiones en una situación dada."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 7,
+    "Afirmacion_Descripcion": "Deriva conclusiones para algunos fenómenos de la naturaleza, basándose en conocimientos científicos y en la evidencia de su propia investigación y la de otros.",
+    "Evidencia_ID": 7.3,
+    "Evidencia_Descripcion": "Elabora conclusiones a partir de información o evidencias que las respalden."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 7,
+    "Afirmacion_Descripcion": "Deriva conclusiones para algunos fenómenos de la naturaleza, basándose en conocimientos científicos y en la evidencia de su propia investigación y la de otros.",
+    "Evidencia_ID": 7.4,
+    "Evidencia_Descripcion": "Hace predicciones basado en información, patrones y regularidades."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 8,
+    "Afirmacion_Descripcion": "Observa y relaciona patrones en los datos para evaluar las predicciones.",
+    "Evidencia_ID": 8.1,
+    "Evidencia_Descripcion": "Interpreta y analiza datos representados en texto, gráficas, dibujos, diagramas o tablas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 8,
+    "Afirmacion_Descripcion": "Observa y relaciona patrones en los datos para evaluar las predicciones.",
+    "Evidencia_ID": 8.2,
+    "Evidencia_Descripcion": "Representa datos en gráficas y tablas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 9,
+    "Afirmacion_Descripcion": "Utiliza algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.",
+    "Evidencia_ID": 9.1,
+    "Evidencia_Descripcion": "Da posibles explicaciones de eventos o fenómenos consistentes con conceptos de la ciencia."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 9,
+    "Afirmacion_Descripcion": "Utiliza algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.",
+    "Evidencia_ID": 9.2,
+    "Evidencia_Descripcion": "Diseña experimentos para dar respuesta a sus preguntas."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 9,
+    "Afirmacion_Descripcion": "Utiliza algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.",
+    "Evidencia_ID": 9.3,
+    "Evidencia_Descripcion": "Elige y utiliza instrumentos adecuados para reunir datos."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 9,
+    "Afirmacion_Descripcion": "Utiliza algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.",
+    "Evidencia_ID": 9.4,
+    "Evidencia_Descripcion": "Reconoce la necesidad de registrar y clasificar la información para realizar un buen análisis."
+  },
+  {
+    "Area": "Ciencias Naturales",
+    "Competencia": "Indagación",
+    "Afirmacion_ID": 9,
+    "Afirmacion_Descripcion": "Utiliza algunas habilidades de pensamiento y de procedimiento para evaluar predicciones.",
+    "Evidencia_ID": 9.5,
+    "Evidencia_Descripcion": "Usa información adicional para evaluar una predicción."
+  }
+]

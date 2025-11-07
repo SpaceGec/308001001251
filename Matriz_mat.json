@@ -1,0 +1,66 @@
+[
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Interpretación y representación",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+    "Evidencia_ID": 1.1,
+    "Evidencia_Descripcion": "Da cuenta de las características básicas de la información presentada en diferentes formatos, como series, gráficas, tablas y esquemas."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Interpretación y representación",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende y transforma la información cuantitativa y esquemática presentada en distintos formatos.",
+    "Evidencia_ID": 1.2,
+    "Evidencia_Descripcion": "Transforma la representación de una o más piezas de información."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Formulación y ejecución",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+    "Evidencia_ID": 2.1,
+    "Evidencia_Descripcion": "Diseña planes para la solución de problemas que involucran información cuantitativa o esquemática."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Formulación y ejecución",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+    "Evidencia_ID": 2.2,
+    "Evidencia_Descripcion": "Ejecuta un plan de solución para un problema que involucra información cuantitativa o esquemática."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Formulación y ejecución",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Frente a un problema que involucre información cuantitativa, plantea e implementa estrategias que lleven a soluciones adecuadas.",
+    "Evidencia_ID": 2.3,
+    "Evidencia_Descripcion": "Resuelve un problema que involucra información cuantitativa o esquemática."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Argumentación",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+    "Evidencia_ID": 3.1,
+    "Evidencia_Descripcion": "Plantea afirmaciones que sustentan o refutan una interpretación dada a la información disponible en el marco de la solución de un problema."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Argumentación",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+    "Evidencia_ID": 3.2,
+    "Evidencia_Descripcion": "Argumenta a favor o en contra de un procedimiento para resolver un problema a la luz de criterios presentados o establecidos."
+  },
+  {
+    "Area": "Matemáticas",
+    "Competencia": "Argumentación",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Valida procedimientos y estrategias matemáticas utilizadas para dar solución a problemas.",
+    "Evidencia_ID": 3.3,
+    "Evidencia_Descripcion": "Establece la validez o pertinencia de una solución propuesta a un problema dado."
+  }
+]

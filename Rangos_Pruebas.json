@@ -1,0 +1,29 @@
+{
+  "niveles_global": [
+    {"nombre": "Insuficiente", "id": 1, "color": "red", "min": 0, "max": 250},
+    {"nombre": "Mínimo", "id": 2, "color": "gold", "min": 251, "max": 300},
+    {"nombre": "Satisfactorio", "id": 3, "color": "deepskyblue", "min": 301, "max": 400},
+    {"nombre": "Avanzado", "id": 4, "color": "olivedrab", "min": 401, "max": 500}
+  ],
+  "niveles_areas_estandar": [
+    {"nombre": "Insuficiente", "id": 1, "color": "red", "min": 0, "max": 39},
+    {"nombre": "Mínimo", "id": 2, "color": "gold", "min": 40, "max": 55},
+    {"nombre": "Satisfactorio", "id": 3, "color": "deepskyblue", "min": 56, "max": 75},
+    {"nombre": "Avanzado", "id": 4, "color": "olivedrab", "min": 76, "max": 100}
+  ],
+  "niveles_ingles": [
+    {"nombre": "A-", "id": 1, "color": "red", "min": 0, "max": 45},
+    {"nombre": "A1", "id": 2, "color": "gold", "min": 46, "max": 55},
+    {"nombre": "A2", "id": 3, "color": "deepskyblue", "min": 56, "max": 65},
+    {"nombre": "B1", "id": 4, "color": "olivedrab", "min": 66, "max": 75},
+    {"nombre": "B+", "id": 5, "color": "olivedrab", "min": 76, "max": 100}
+  ],
+  "areas_mapeo": {
+    "PUNTAJE": "niveles_global",
+    "LECTURA CRÍTICA": "niveles_areas_estandar",
+    "CIENCIAS NATURALES": "niveles_areas_estandar",
+    "MATEMÁTICAS": "niveles_areas_estandar",
+    "SOCIALES Y CIUDADANAS": "niveles_areas_estandar",
+    "INGLÉS": "niveles_ingles"
+  }
+}

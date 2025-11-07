@@ -1,0 +1,130 @@
+[
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+    "Evidencia_ID": 1.1,
+    "Evidencia_Descripcion": "Identifica y usa conceptos sociales básicos (económicos, políticos, culturales y geográficos)."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+    "Evidencia_ID": 1.2,
+    "Evidencia_Descripcion": "Conoce el modelo de Estado Social de Derecho y su aplicación en Colombia."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+    "Evidencia_ID": 1.3,
+    "Evidencia_Descripcion": "Conoce la organización del Estado: Conoce las funciones y alcances de las ramas del poder y de los organismos de control."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Comprende modelos conceptuales, sus características y contextos de aplicación.",
+    "Evidencia_ID": 1.4,
+    "Evidencia_Descripcion": "Conoce los mecanismos que los ciudadanos tienen a su disposición para participar activamente en la democracia y para garantizar el respeto de sus derechos."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende dimensiones espaciales y temporales de eventos, problemáticas y prácticas sociales.",
+    "Evidencia_ID": 2.1,
+    "Evidencia_Descripcion": "Localiza en el tiempo y en el espacio eventos históricos y prácticas sociales."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende dimensiones espaciales y temporales de eventos, problemáticas y prácticas sociales.",
+    "Evidencia_ID": 2.2,
+    "Evidencia_Descripcion": "Relaciona dimensiones históricas y geográficas de eventos y problemáticas sociales."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento social",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende dimensiones espaciales y temporales de eventos, problemáticas y prácticas sociales.",
+    "Evidencia_ID": 2.3,
+    "Evidencia_Descripcion": "Relaciona problemáticas o prácticas sociales con características del espacio geográfico."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+    "Evidencia_ID": 3.1,
+    "Evidencia_Descripcion": "Inscribe una fuente primaria dada en un contexto económico, político o cultural."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+    "Evidencia_ID": 3.2,
+    "Evidencia_Descripcion": "Evalúa posibilidades y limitaciones del uso de una fuente para apoyar argumentos o explicaciones."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Contextualiza y evalúa usos de fuentes y argumentos.",
+    "Evidencia_ID": 3.3,
+    "Evidencia_Descripcion": "Devela prejuicios e intenciones en enunciados o argumentos."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Comprende perspectivas de distintos actores y grupos sociales.",
+    "Evidencia_ID": 4.1,
+    "Evidencia_Descripcion": "Reconoce y compara perspectivas de actores y grupos sociales."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Comprende perspectivas de distintos actores y grupos sociales.",
+    "Evidencia_ID": 4.2,
+    "Evidencia_Descripcion": "Reconoce que las cosmovisiones, ideologías y roles sociales influyen en diferentes argumentos, posiciones y conductas."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Interpretación y análisis de perspectivas",
+    "Afirmacion_ID": 4,
+    "Afirmacion_Descripcion": "Comprende perspectivas de distintos actores y grupos sociales.",
+    "Evidencia_ID": 4.3,
+    "Evidencia_Descripcion": "Establece relaciones entre las perspectivas de los individuos en una situación conflictiva y las propuestas de solución."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento reflexivo y sistémico",
+    "Afirmacion_ID": 5,
+    "Afirmacion_Descripcion": "Evalúa usos sociales de las ciencias sociales.",
+    "Evidencia_ID": 5.1,
+    "Evidencia_Descripcion": "Analiza modelos conceptuales y sus usos en decisiones sociales."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento reflexivo y sistémico",
+    "Afirmacion_ID": 6,
+    "Afirmacion_Descripcion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+    "Evidencia_ID": 6.1,
+    "Evidencia_Descripcion": "Establece relaciones que hay entre dimensiones presentes en una situación problemática."
+  },
+  {
+    "Area": "Sociales y Ciudadanas",
+    "Competencia": "Pensamiento reflexivo y sistémico",
+    "Afirmacion_ID": 6,
+    "Afirmacion_Descripcion": "Comprende que los problemas y sus soluciones involucran distintas dimensiones y reconoce relaciones entre estas.",
+    "Evidencia_ID": 6.2,
+    "Evidencia_Descripcion": "Analiza los efectos en distintas dimensiones que tendría una posible intervención."
+  }
+]

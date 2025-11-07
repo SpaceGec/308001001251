@@ -1,0 +1,98 @@
+[
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Identificar y ubicar información local",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Identifica y entiende los contenidos locales que conforman un texto.",
+    "Evidencia_ID": 1.1,
+    "Evidencia_Descripcion": "Entiende el significado de los elementos locales que constituyen un texto."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Identificar y ubicar información local",
+    "Afirmacion_ID": 1,
+    "Afirmacion_Descripcion": "Identifica y entiende los contenidos locales que conforman un texto.",
+    "Evidencia_ID": 1.2,
+    "Evidencia_Descripcion": "Identifica los eventos narrados de manera explícita en un texto (literario, descriptivo, caricatura o cómic) y los personajes involucrados (si los hay)."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Relacionar e interpretar información",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+    "Evidencia_ID": 2.1,
+    "Evidencia_Descripcion": "Comprende la estructura formal de un texto y la función de sus partes."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Relacionar e interpretar información",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+    "Evidencia_ID": 2.2,
+    "Evidencia_Descripcion": "Identifica y caracteriza las diferentes voces o situaciones presentes en un texto."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Relacionar e interpretar información",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+    "Evidencia_ID": 2.3,
+    "Evidencia_Descripcion": "Comprende las relaciones entre diferentes partes o enunciados de un texto."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Relacionar e interpretar información",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+    "Evidencia_ID": 2.4,
+    "Evidencia_Descripcion": "Identifica y caracteriza las ideas o afirmaciones presentes en un texto informativo."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Relacionar e interpretar información",
+    "Afirmacion_ID": 2,
+    "Afirmacion_Descripcion": "Comprende cómo se articulan las partes de un texto para darle un sentido global.",
+    "Evidencia_ID": 2.5,
+    "Evidencia_Descripcion": "Identifica el tipo de relación existente entre diferentes elementos de un texto (discontinuo)."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Evaluar y reflexionar sobre la forma y el contenido de los textos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Reflexiona a partir de un texto y evalúa su contenido.",
+    "Evidencia_ID": 3.1,
+    "Evidencia_Descripcion": "Establece la validez e implicaciones de un enunciado de un texto (argumentativo o expositivo)."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Evaluar y reflexionar sobre la forma y el contenido de los textos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Reflexiona a partir de un texto y evalúa su contenido.",
+    "Evidencia_ID": 3.2,
+    "Evidencia_Descripcion": "Establece relaciones entre un texto y otros textos o enunciados."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Evaluar y reflexionar sobre la forma y el contenido de los textos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Reflexiona a partir de un texto y evalúa su contenido.",
+    "Evidencia_ID": 3.3,
+    "Evidencia_Descripcion": "Reconoce contenidos valorativos presentes en un texto."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Evaluar y reflexionar sobre la forma y el contenido de los textos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Reflexiona a partir de un texto y evalúa su contenido.",
+    "Evidencia_ID": 3.4,
+    "Evidencia_Descripcion": "Reconoce las estrategias discursivas en un texto."
+  },
+  {
+    "Area": "Lectura Crítica",
+    "Competencia": "Evaluar y reflexionar sobre la forma y el contenido de los textos",
+    "Afirmacion_ID": 3,
+    "Afirmacion_Descripcion": "Reflexiona a partir de un texto y evalúa su contenido.",
+    "Evidencia_ID": 3.5,
+    "Evidencia_Descripcion": "Contextualiza adecuadamente un texto o la información contenida en este."
+  }
+]
