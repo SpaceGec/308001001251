@@ -681,8 +681,13 @@ function mostrarInforme(reporte) {
 // 6. FUNCIÓN PRINCIPAL DE ORQUESTACIÓN
 // -----------------------------------------------------------------
 
+// =================================================================
+// js/report_engine.js | FUNCIÓN PRINCIPAL iniciarProceso() COMPLETA (FINAL)
+// =================================================================
+
 async function iniciarProceso() {
     
+    // Ocultar mensaje de error anterior y mostrar estado
     document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calculando...';
     
     // 1. OBTENER ORDEN DE APLICACIÓN (Desde el HTML)
@@ -692,12 +697,28 @@ async function iniciarProceso() {
         document.getElementById('simulacro3').value  
     ];
     const simulacroRecienteNombre = ordenSimulacros[ordenSimulacros.length - 1];
-document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calculando...';
+
     try {
-        // A. Carga de datos
+        // A. Carga de datos esenciales
         const historicoICFES = await cargarJSON(ARCHIVO_ICFES);
-        const detalleCSV = await cargarConsolidadoCSV(ARCHIVOS_DETALLE_CSV); 
         
+        // 1.1. MOSTRAR METADATA (Información del colegio, ya que la inicialización falló)
+        document.getElementById('nombre-colegio').textContent = historicoICFES.Datos_Generales.Nombre_Colegio;
+
+        // --- 2. CONSOLIDACIÓN DINÁMICA DEL CSV DETALLE ---
+        
+        const archivosAconsolidar = ARCHIVOS_MAESTROS_CSV.filter(nombre => 
+            // Filtra la lista maestra por el nombre del simulacro reciente
+            nombre.toUpperCase().includes(simulacroRecienteNombre.toUpperCase()) && nombre.endsWith('.csv')
+        );
+
+        if (archivosAconsolidar.length === 0) {
+             throw new Error(`No se encontraron archivos CSV de detalle para el simulacro: ${simulacroRecienteNombre} en la lista maestra.`);
+        }
+        
+        const detalleCSV = await cargarConsolidadoCSV(archivosAconsolidar); 
+
+        // 3. Carga de todos los JSON de simulacro (JSON 3) y Matrices DCE (JSON 1)
         const resultadosSimulacros = {};
         for (const simName of ordenSimulacros) {
             resultadosSimulacros[simName] = await cargarJSON(ARCHIVOS_SIMULACROS[simName]);
@@ -819,7 +840,7 @@ document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calc
 
     } catch (error) {
         document.getElementById('contenedor-informe').innerHTML = 
-            `<h2 style="color:red;">Fallo al generar el informe.</h2><p>Verifique que los nombres de los archivos en el repositorio y la configuración de rutas sean correctos.</p><p>Detalle: ${error.message}</p>`;
+            `<h2 style="color:red;">Fallo al generar el informe.</h2><p>Verifique que los nombres de los archivos y las rutas sean correctos.</p><p>Detalle: ${error.message}</p>`;
         console.error("Error grave en la orquestación:", error);
     }
 }
