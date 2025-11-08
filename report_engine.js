@@ -369,32 +369,232 @@ function generarAnalisisPorArea(reporteFinal) {
     return {};
 }
 
+// =================================================================
+// js/report_engine.js | PARTE 4: LÓGICA DE CÁLCULO Y COMPARACIÓN
+// UBICACIÓN: Reemplazar la función anterior de 'mostrarInforme'
+// =================================================================
+
 /**
- * Función que renderiza el informe en el contenedor (Paso 23 - Pendiente)
+ * Función auxiliar para dibujar la gráfica de Tendencia Global (Histórico vs. Simulacros).
+ * Utiliza Chart.js.
+ */
+function renderizarGraficaTendencia(tendencia, elementoId) {
+    const labels = tendencia.map(d => d.nombre);
+    const dataPoints = tendencia.map(d => d.puntaje);
+    
+    // Identificamos el puntaje histórico para crear una línea de referencia
+    const histData = tendencia.find(d => d.tipo === 'historico');
+    const promedioHistorico = histData ? histData.puntaje : null;
+
+    // Colores: Histórico (Gris/Negro), Simulacros (Azul/Verde)
+    const backgroundColors = tendencia.map(d => 
+        d.tipo === 'historico' ? 'rgba(50, 50, 50, 0.8)' : 'rgba(0, 153, 255, 0.8)'
+    );
+    const borderColors = tendencia.map(d => 
+        d.tipo === 'historico' ? 'rgba(50, 50, 50, 1)' : 'rgba(0, 153, 255, 1)'
+    );
+
+    new Chart(document.getElementById(elementoId).getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Puntaje Promedio Global',
+                data: dataPoints,
+                backgroundColor: backgroundColors,
+                borderColor: borderColors,
+                borderWidth: 3,
+                tension: 0.4, // Suaviza la línea
+                pointRadius: 5,
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    min: 200, 
+                    max: 400, // Ajustar según rango real de puntajes globales
+                    title: { display: true, text: 'Puntaje Global' }
+                }
+            },
+            plugins: {
+                title: { display: true, text: 'Tendencia de Rendimiento Global' },
+                annotation: { // Para dibujar la línea horizontal del promedio histórico
+                    annotations: promedioHistorico ? [{
+                        type: 'line',
+                        yMin: promedioHistorico,
+                        yMax: promedioHistorico,
+                        borderColor: 'red',
+                        borderWidth: 2,
+                        label: { content: 'Promedio Histórico', enabled: true, position: 'start' }
+                    }] : []
+                }
+            }
+        }
+    });
+}
+
+
+/**
+ * Función que renderiza todo el informe en el contenedor HTML.
  */
 function mostrarInforme(reporte) {
     const contenedor = document.getElementById('contenedor-informe');
-    // Implementación de Chart.js y renderizado de HTML
-    // Por ahora, solo mostramos el resumen:
+    const global = reporte.global;
     
-    let html = `<h2>✅ Informe Generado para: ${reporte.metadata.colegio}</h2>`;
-    html += `<h3>Resumen Global (Histórico ${reporte.metadata.ultimoAnioHistorico} vs. Simulacro ${reporte.metadata.simulacroReciente})</h3>`;
-    html += `<ul>
-        <li>Puntaje Histórico Promedio: <strong>${reporte.global.promedioHistorico}</strong> (Desviación: ${reporte.global.desviacionHistorica})</li>
-        <li>Puntaje Simulacro Reciente: <strong>${reporte.global.promedioSimulacroReciente}</strong></li>
-        <li><strong>Z-Score (Desviación del Histórico): ${reporte.global.zScore}</strong> </li>
-    </ul>`;
+    // --- 1. RESUMEN EJECUTIVO Y ESTADÍSTICAS GLOBALES ---
+    let html = `
+        <h2 style="color: #004d99;">✅ INFORME COMPARATIVO: ${reporte.metadata.colegio}</h2>
+        
+        <div class="area-section">
+            <h3>I. Análisis Global y Tendencia</h3>
+            
+            <p><strong>Cálculo:</strong> Se compara el rendimiento de los simulacros contra el promedio histórico ${reporte.metadata.ultimoAnioHistorico} del Establecimiento Educativo (EE).</p>
+            
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <h4>Métricas Clave</h4>
+                    <ul>
+                        <li>Promedio Histórico EE (${reporte.metadata.ultimoAnioHistorico}): <strong>${global.promedioHistorico}</strong> (Desviación: ${global.desviacionHistorica})</li>
+                        <li>Promedio Simulacro Reciente (${reporte.metadata.simulacroReciente}): <strong>${global.promedioSimulacroReciente}</strong></li>
+                        <li>Promedio del Grupo de Comparación (${global.grupoComparacion}): ${global.promedioGrupoComp}</li>
+                        <li style="color: ${global.zScore < 0 ? 'red' : 'green'}; font-size: 1.1em;">
+                            <strong>Z-SCORE (Desviación del Histórico): ${global.zScore}</strong>
+                            <br>
+                            ${global.zScore < -0.5 
+                                ? 'El rendimiento está significativamente POR DEBAJO de la media histórica del colegio.' 
+                                : global.zScore > 0.5 
+                                ? 'El rendimiento está significativamente POR ENCIMA de la media histórica.'
+                                : 'El rendimiento es consistente con la media histórica.'}
+                        </li>
+                    </ul>
+                </div>
+                
+                <div style="flex: 1;">
+                    <h4>Comparación de Niveles de Desempeño (Global)</h4>
+                    <canvas id="chartNivelesGlobal" style="max-height: 250px;"></canvas>
+                </div>
+            </div>
+            
+            <hr>
+            <h4>Tendencia Histórica vs. Simulacros</h4>
+            <div style="width: 90%; margin: auto;">
+                <canvas id="chartTendenciaGlobal"></canvas>
+            </div>
+        </div>
+    `;
 
-    html += '<h4>Distribución de Niveles Globales (Simulacro Reciente):</h4>';
-    html += '<table border="1"><thead><tr><th>Nivel</th><th>% Estudiantes</th></tr></thead><tbody>';
-    Object.entries(reporte.global.distribucionNiveles).forEach(([nivel, porcentaje]) => {
-        if (nivel !== 'Total') {
-             html += `<tr><td>${nivel}</td><td>${porcentaje}%</td></tr>`;
+    // --- 2. ANÁLISIS DETALLADO POR ÁREA ---
+    html += `<h3>II. Análisis de Rendimiento por Área (DCE)</h3>`;
+    
+    Object.entries(reporte.analisisPorArea).forEach(([area, datosArea]) => {
+        html += `
+            <div class="area-section">
+                <h4>${area}</h4>
+                <p>Puntaje promedio del simulacro: <strong>${datosArea.puntajePromedioSim}</strong></p>
+                
+                <h5>Comparativo de Competencias (Simulacro Reciente vs. Histórico):</h5>
+                <table border="1" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Competencia / Afirmación</th>
+                            <th>% Acierto Simulacro</th>
+                            <th>% Acierto Histórico</th>
+                            <th>Brecha</th>
+                            <th>Diagnóstico</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        `;
+        
+        datosArea.comparativaCompetencias.forEach(comp => {
+            const color = comp.brecha < -0.1 ? 'red' : comp.brecha > 0.1 ? 'green' : 'black';
+            html += `
+                        <tr>
+                            <td>${comp.competencia}</td>
+                            <td>${(comp.aciertoSimulacro * 100).toFixed(1)}%</td>
+                            <td>${(comp.aciertoHistorico * 100).toFixed(1)}%</td>
+                            <td style="color: ${color};">${comp.brecha}</td>
+                            <td>${comp.diagnostico}</td>
+                        </tr>
+            `;
+        });
+        
+        html += `
+                    </tbody>
+                </table>
+                
+                <h5>Sugerencias Metodológicas (Basadas en DCE)</h5>
+                <ul>
+        `;
+        
+        // Consolidar todas las sugerencias de las debilidades
+        const sugerenciasConsolidadas = new Set();
+        datosArea.comparativaCompetencias
+            .filter(c => c.diagnostico === 'Necesita Refuerzo Urgente')
+            .forEach(c => c.sugerencias.forEach(s => sugerenciasConsolidadas.add(s)));
+        
+        if (sugerenciasConsolidadas.size > 0) {
+             sugerenciasConsolidadas.forEach(s => html += `<li>${s}</li>`);
+        } else {
+             html += `<li>No se identificaron debilidades críticas en esta área (< 45% de acierto).</li>`;
+        }
+        
+        html += `
+                </ul>
+            </div>
+        `;
+    });
+    
+    // --- 3. FINALIZAR Y EJECUTAR GRÁFICAS ---
+    contenedor.innerHTML = html;
+    
+    // Ejecutar la gráfica de Tendencia Global
+    renderizarGraficaTendencia(global.tendencia, 'chartTendenciaGlobal');
+    
+    // Ejecutar la gráfica de Niveles Globales
+    renderizarGraficaNiveles(global.distribucionNiveles, 'chartNivelesGlobal', 'Global');
+}
+
+
+/**
+ * Función auxiliar para dibujar la gráfica de Niveles de Desempeño (Torta/Pie).
+ */
+function renderizarGraficaNiveles(distribucion, elementoId, titulo) {
+    const labels = Object.keys(distribucion).filter(k => k !== 'Total').sort((a, b) => {
+        // Ordenar por nivel ID para consistencia (Insuficiente, Mínimo, Satisfactorio, Avanzado)
+        const idA = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === a)?.id || 0;
+        const idB = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === b)?.id || 0;
+        return idA - idB;
+    });
+
+    const dataPoints = labels.map(label => parseFloat(distribucion[label]));
+    
+    const colors = labels.map(label => {
+        const nivel = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === label) || RANGOS_DESEMPENIO.niveles_areas_estandar.find(n => n.nombre === label);
+        return nivel ? nivel.color : 'gray';
+    });
+
+    new Chart(document.getElementById(elementoId).getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Distribución %',
+                data: dataPoints,
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: `Niveles de Desempeño ${titulo}` },
+                legend: { position: 'right' }
+            }
         }
     });
-    html += '</tbody></table>';
-    
-    contenedor.innerHTML = html;
 }
 
 
