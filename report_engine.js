@@ -8,13 +8,15 @@
 
 const DANE_COLEGIO = '308001001251'; 
 
-// --- Rutas Estáticas ---
-const ARCHIVO_ICFES = `${DANE_COLEGIO}_icfes.json`;
+const DANE_COLEGIO = '308001001251'; 
+const RUTA_BASE_DATOS = `${DANE_COLEGIO}/`; // Nueva constante para la subcarpeta
 
+// --- Archivos JSON Estáticos ---
+const ARCHIVO_ICFES = `${RUTA_BASE_DATOS}${DANE_COLEGIO}_icfes.json`; // CORREGIDO: ahora busca en 308001001251/308001001251_icfes.json
 const ARCHIVOS_SIMULACROS = {
-    'Gamma_10': `${DANE_COLEGIO}_Gamma_10.json`,
-    'Epsilon_10': `${DANE_COLEGIO}_Epsilon_10.json`,
-    'Dzeta_10': `${DANE_COLEGIO}_Dzeta_10.json`
+    'Gamma_10': `${RUTA_BASE_DATOS}${DANE_COLEGIO}_Gamma_10.json`,
+    'Epsilon_10': `${RUTA_BASE_DATOS}${DANE_COLEGIO}_Epsilon_10.json`,
+    'Dzeta_10': `${RUTA_BASE_DATOS}${DANE_COLEGIO}_Dzeta_10.json`
 };
 
 const ARCHIVOS_MATRICES = {
