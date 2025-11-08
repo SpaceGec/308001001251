@@ -1,5 +1,5 @@
 // =================================================================
-// js/report_engine.js | CONTENIDO CONSOLIDADO HASTA EL PASO 21
+// js/report_engine.js | CONSOLIDACIÓN Y REVISIÓN FINAL
 // =================================================================
 
 // -----------------------------------------------------------------
@@ -8,7 +8,7 @@
 
 const DANE_COLEGIO = '308001001251'; 
 
-// --- Archivos JSON Estáticos ---
+// --- Rutas Estáticas ---
 const ARCHIVO_ICFES = `${DANE_COLEGIO}_icfes.json`;
 
 const ARCHIVOS_SIMULACROS = {
@@ -25,18 +25,14 @@ const ARCHIVOS_MATRICES = {
     'Inglés': 'Matriz_ing.json'
 };
 
-// --- Nombres de los CSV Detallados del ÚLTIMO Simulacro (Dzeta) ---
-// Estos archivos contienen la data PUNTAJE, LECTURA CRÍTICA, etc., y deben CONSOLIDARSE.
-// Asumimos que los archivos están en la subcarpeta del DANE o en la raíz, 
-// y que la ruta debe ser la que usted subió:
 const ARCHIVOS_DETALLE_CSV = [
     '10-A-JM-2-05 DZETA 10 SABER.csv',
     '10-C-JM-2-05 DZETA 10 SABER.csv',
-    // Si hubiera más CSV/XLSX del último simulacro, deberían estar aquí.
+    // Otros CSV del simulacro reciente si existen
 ];
 
 
-// --- RANGOS DE DESEMPEÑO (Cargados de Rangos_Pruebas.json) ---
+// --- RANGOS DE DESEMPEÑO (Rangos_Pruebas.json) ---
 const RANGOS_DESEMPENIO = {
     "niveles_global": [
         {"nombre": "Insuficiente", "id": 1, "color": "red", "min": 0, "max": 250},
@@ -67,26 +63,15 @@ const RANGOS_DESEMPENIO = {
     }
 };
 
-// Umbrales para clasificar el rendimiento de Evidencias/Afirmaciones
 const UMBRALES_ANALISIS = {
     FUERTE: 0.65, // > 65% de acierto
     MEDIO: 0.45,  // 45% a 65%
     DEBIL: 0.00   // < 45% (Necesita Refuerzo)
 };
 
-// =================================================================
-// js/report_engine.js | PARTE 1: CONSTANTES
-// UBICACIÓN: Catálogo de Sugerencias (NUEVA VERSIÓN DETALLADA DCE)
-// =================================================================
-
-/**
- * CATALOGO_SUGERENCIAS_DCE: Base de conocimientos que asocia una debilidad
- * en una competencia/afirmación (Afirmacion_Clave) con acciones pedagógicas concretas.
- */
 const CATALOGO_SUGERENCIAS_DCE = {
-
+    // [Aquí iría todo el contenido de las sugerencias detalladas del Paso 26]
     "Matemáticas": [
-        // Competencia 1: Interpretación y representación
         {
             "afirmacion_clave": "Interpretación y representación", 
             "sugerencias": [
@@ -95,7 +80,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Promover la lectura detallada de infografías complejas y reportes estadísticos para identificar datos relevantes y distinguir entre información principal y secundaria."
             ]
         },
-        // Competencia 2: Formulación y ejecución
         {
             "afirmacion_clave": "Formulación y ejecución",
             "sugerencias": [
@@ -104,7 +88,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Incorporar escenarios de 'prueba y error' y análisis de casos fallidos, incentivando la reflexión sobre por qué una estrategia inicial no fue adecuada."
             ]
         },
-        // Competencia 3: Argumentación
         {
             "afirmacion_clave": "Argumentación",
             "sugerencias": [
@@ -114,9 +97,7 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         }
     ],
-
     "Lectura Crítica": [
-        // Competencia 1: Identificar y Entender Contenidos Locales
         {
             "afirmacion_clave": "IDENTIFICAR Y ENTENDER", 
             "sugerencias": [
@@ -125,7 +106,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Practicar la diferenciación de voces en textos narrativos o dialógicos, preguntando explícitamente quién dice qué y en qué contexto."
             ]
         },
-        // Competencia 2: Comprender Cómo se Articulan las Partes (Sentido Global)
         {
             "afirmacion_clave": "COMPRENDER CÓMO SE ARTICULAN", 
             "sugerencias": [
@@ -134,7 +114,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Entrenar la inferencia del título o de la estructura del texto si estos han sido eliminados o alterados."
             ]
         },
-        // Competencia 3: Reflexionar y Evaluar el Contenido
         {
             "afirmacion_clave": "REFLEXIONAR A PARTIR DE UN TEXTO", 
             "sugerencias": [
@@ -144,9 +123,7 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         }
     ],
-
     "Sociales y Ciudadanas": [
-        // La clave se mapea al texto de las afirmaciones históricas (JSON 2).
         {
             "afirmacion_clave": "Contextualiza y evalúa usos de fuentes", 
             "sugerencias": [
@@ -172,9 +149,7 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         }
     ],
-
     "Ciencias Naturales": [
-        // Competencia 1: Uso Comprensivo del Conocimiento Científico
         {
             "afirmacion_clave": "USO COMPRENSIVO DEL CONOCIMIENTO", 
             "sugerencias": [
@@ -183,7 +158,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Reforzar el entendimiento de las propiedades y la estructura de la materia, haciendo énfasis en las transformaciones químicas y los procesos biológicos que las utilizan."
             ]
         },
-        // Competencia 2: Indagación
         {
             "afirmacion_clave": "INDAGACIÓN", 
             "sugerencias": [
@@ -192,7 +166,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
                 "Practicar la interpretación de gráficos y tablas de resultados experimentales, enfocándose en la identificación de patrones y la relación entre las variables."
             ]
         },
-        // Competencia 3: Explicación de Fenómenos
         {
             "afirmacion_clave": "EXPLICACIÓN DE FENÓMENOS", 
             "sugerencias": [
@@ -202,11 +175,9 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         }
     ],
-
     "Inglés": [
-        // El inglés usa Marco Común Europeo de Referencia (MCER), enfocado en las sub-habilidades:
         {
-            "afirmacion_clave": "LINGÜÍSTICA", // Foco en vocabulario, gramática y coherencia estructural
+            "afirmacion_clave": "LINGÜÍSTICA", 
             "sugerencias": [
                 "**Foco DCE: Gramática y Vocabulario en Contexto.** Realizar ejercicios de completación de textos o cloze tests (Partes 3 y 4 del ICFES) para reforzar el uso correcto de tiempos verbales, preposiciones y conectores.",
                 "Utilizar flashcards contextualizadas para vocabulario. En lugar de traducir, practicar el uso de la palabra en frases y situaciones comunicativas reales (sociolingüística).",
@@ -214,7 +185,7 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         },
         {
-            "afirmacion_clave": "PRAGMÁTICA", // Foco en la función comunicativa y el sentido global
+            "afirmacion_clave": "PRAGMÁTICA", 
             "sugerencias": [
                 "**Foco DCE: Función Comunicativa.** Emplear tareas de lectura rápida (skimming y scanning) para identificar el propósito comunicativo del texto (informar, persuadir, instruir).",
                 "Trabajar con fragmentos de textos donde se deben inferir el significado de palabras desconocidas a partir del contexto general.",
@@ -222,7 +193,7 @@ const CATALOGO_SUGERENCIAS_DCE = {
             ]
         },
         {
-            "afirmacion_clave": "SOCIOLINGÜÍSTICO", // Foco en el contexto cultural y la adecuación del lenguaje
+            "afirmacion_clave": "SOCIOLINGÜÍSTICO", 
             "sugerencias": [
                 "**Foco DCE: Adecuación y Contexto.** Presentar diálogos o textos que ocurren en diferentes contextos sociales (formal, informal, académico) y pedir la identificación de la adecuación del lenguaje (registro).",
                 "Usar ejemplos de modismos y frases hechas para que los estudiantes comprendan que el significado no siempre es literal.",
@@ -231,7 +202,6 @@ const CATALOGO_SUGERENCIAS_DCE = {
         }
     ]
 };
-// =================================================================
 
 
 // -----------------------------------------------------------------
@@ -300,11 +270,9 @@ async function cargarConsolidadoCSV(rutas) {
         }
         const text = await response.text();
         
-        // Simulación de parseo y consolidación: 
         const rows = text.split('\n').map(row => row.trim()).filter(row => row.length > 0);
         if (rows.length === 0) continue;
         
-        // El CSV puede usar comas o puntos y comas. Usaremos el delimitador más frecuente.
         const delimiter = rows[0].includes(';') ? ';' : ','; 
         
         const headers = rows[0].split(delimiter).map(h => h.trim().replace(/"/g, '').replace(/\(.*\)/g, ''));
@@ -316,7 +284,6 @@ async function cargarConsolidadoCSV(rutas) {
             if (values.length === headers.length) {
                 headers.forEach((header, index) => {
                     let value = values[index];
-                    // Intenta parsear a float, si no es número, deja el string
                     rowObject[header] = isNaN(parseFloat(value)) ? value : parseFloat(value);
                 });
                 datosConsolidados.push(rowObject);
@@ -329,11 +296,11 @@ async function cargarConsolidadoCSV(rutas) {
 
 
 // -----------------------------------------------------------------
-// 4. LÓGICA DE CÁLCULO Y COMPARACIÓN (Funciones Pendientes)
+// 4. LÓGICA DE CÁLCULO Y COMPARACIÓN
 // -----------------------------------------------------------------
 
 /**
- * Calcula la distribución de estudiantes en los niveles de desempeño Global y por Área. (Paso 21)
+ * Calcula la distribución de estudiantes en los niveles de desempeño Global y por Área.
  */
 function calcularDistribucionNiveles(detalleCSV) { 
     const distribucion = { Global: { Total: 0 }, Areas: {} };
@@ -366,107 +333,7 @@ function calcularDistribucionNiveles(detalleCSV) {
             distribucion.Areas[area].Total++;
         }
     });
-// =================================================================
-// js/report_engine.js | PARTE 4: LÓGICA DE CÁLCULO Y COMPARACIÓN
-// UBICACIÓN: Implementar la función generarAnalisisPorArea
-// =================================================================
 
-/**
- * Genera el análisis detallado por área, comparando rendimiento, brechas y asignando sugerencias.
- * @param {object} reporteFinal - El objeto de reporte final con todos los datos cargados.
- * @returns {object} Análisis estructurado por área.
- */
-function generarAnalisisPorArea(reporteFinal) {
-    const { resultadosSimulacros, matricesDCE, nivelesPorArea } = reporteFinal;
-    const historicoData = reporteFinal.historicoICFES; // Asumimos que se cargó en iniciarProceso
-    const analisisResultados = {};
-    const simulacroRecienteData = resultadosSimulacros[reporteFinal.metadata.simulacroReciente];
-
-    // Áreas a analizar (basadas en las matrices cargadas)
-    const areas = Object.keys(matricesDCE);
-
-    areas.forEach(area => {
-        const areaSimulacroData = simulacroRecienteData.Resultados_Areas.find(a => a.Area === area);
-        
-        // El nombre de la clave en el JSON Histórico (JSON 2)
-        const areaKeyHist = area.replace(/\s/g, '_'); 
-        const areaHistoricaData = historicoData.Areas_Detalle[areaKeyHist];
-
-        if (!areaSimulacroData || !areaHistoricaData) {
-            console.warn(`Datos insuficientes para el área: ${area}`);
-            return;
-        }
-
-        const comparativaCompetencias = [];
-        let debilidadesClave = [];
-        
-        // Analizar rendimiento por Competencia/Afirmación
-        const rendimientoCompetenciasSim = areaSimulacroData.Rendimiento_Competencias;
-        const rendimientoHistoricoAfirmaciones = areaHistoricaData[`Figura_${Object.keys(areaHistoricaData).find(k => k.includes('Afirmacion'))}`];
-
-        rendimientoCompetenciasSim.forEach(compSim => {
-            const aciertoSim = parseFloat(compSim.Porcentaje_Acierto.replace('%', '')) / 100;
-            const nombreComp = compSim.Nombre_Competencia;
-
-            // --- 1. Mapeo a la Afirmación Histórica (JSON 2) ---
-            
-            // Buscamos la afirmación histórica que más se acerca al nombre de la Competencia.
-            // NOTA: Usamos el nombre de la competencia como proxy para la Afirmación DCE.
-            const histItem = rendimientoHistoricoAfirmaciones.find(item => 
-                item.Aprendizaje_Afirmacion.toUpperCase().includes(nombreComp.substring(0, 10)) // Mapeo parcial de texto
-            );
-
-            let aciertoHist = 0;
-            if (histItem && histItem.Porcentaje_EE !== 'N.D.') {
-                // El histórico da el % INCORRECTO. Lo convertimos a ACIERTO.
-                const incorrectoHist = parseFloat(histItem.Porcentaje_EE.replace('%', '')) / 100;
-                aciertoHist = 1 - incorrectoHist;
-            }
-
-            // --- 2. Diagnóstico por Regla (La "IA") ---
-            let diagnostico = '';
-            let sugerenciasAsociadas = [];
-            
-            if (aciertoSim > UMBRALES_ANALISIS.FUERTE) {
-                diagnostico = 'Fortaleza Consolidada';
-            } else if (aciertoSim >= UMBRALES_ANALISIS.MEDIO) {
-                diagnostico = 'Nivel de Consolidación';
-            } else {
-                diagnostico = 'Necesita Refuerzo Urgente';
-                debilidadesClave.push(nombreComp);
-                
-                // --- 3. Asignación de Sugerencias (CATÁLOGO) ---
-                const sugerenciaCatalog = CATALOGO_SUGERENCIAS_DCE[area.trim()];
-                if (sugerenciaCatalog) {
-                    const match = sugerenciaCatalog.find(s => nombreComp.toUpperCase().includes(s.afirmacion_clave.toUpperCase().substring(0, 10)));
-                    if (match) {
-                        sugerenciasAsociadas = match.sugerencias;
-                    }
-                }
-            }
-            
-            comparativaCompetencias.push({
-                competencia: nombreComp,
-                aciertoSimulacro: aciertoSim.toFixed(2),
-                aciertoHistorico: aciertoHist.toFixed(2),
-                brecha: (aciertoSim - aciertoHist).toFixed(2),
-                diagnostico: diagnostico,
-                sugerencias: sugerenciasAsociadas
-            });
-        });
-
-        // Almacenar resultados para el área
-        analisisResultados[area] = {
-            puntajePromedioSim: areaSimulacroData.Puntaje_Promedio_Area,
-            nivelesSimulacro: nivelesPorArea[area], // Distribución de Nivel 1, 2, 3, 4
-            comparativaCompetencias: comparativaCompetencias,
-            debilidadesClave: debilidadesClave
-        };
-    });
-
-    return analisisResultados;
-}
-// -----------------------------------------------------------------
     // CONVERTIR CONTEOS A PORCENTAJES
     function convertirAporcentaje(dist, total) {
         const resultado = {};
@@ -493,31 +360,105 @@ function generarAnalisisPorArea(reporteFinal) {
 }
 
 /**
- * Genera el análisis detallado por área, comparando rendimiento y asignando sugerencias (Paso 22 - Pendiente)
+ * Genera el análisis detallado por área, comparando rendimiento, brechas y asignando sugerencias (Paso 25)
  */
 function generarAnalisisPorArea(reporteFinal) {
-    // ESTA FUNCIÓN SE IMPLEMENTARÁ EN EL SIGUIENTE PASO
-    return {};
+    const { resultadosSimulacros, matricesDCE, nivelesPorArea, historicoICFES } = reporteFinal;
+    const analisisResultados = {};
+    const simulacroRecienteData = resultadosSimulacros[reporteFinal.metadata.simulacroReciente];
+
+    const areas = Object.keys(matricesDCE);
+
+    areas.forEach(area => {
+        const areaSimulacroData = simulacroRecienteData.Resultados_Areas.find(a => a.Area === area);
+        
+        const areaKeyHist = area.replace(/\s/g, '_'); 
+        const areaHistoricaData = historicoICFES.Areas_Detalle[areaKeyHist];
+
+        if (!areaSimulacroData || !areaHistoricaData) {
+            console.warn(`Datos insuficientes para el área: ${area}. Saltando análisis detallado.`);
+            return;
+        }
+
+        const comparativaCompetencias = [];
+        const rendimientoCompetenciasSim = areaSimulacroData.Rendimiento_Competencias;
+        
+        const claveAfirmacionesHist = Object.keys(areaHistoricaData).find(k => k.includes('Afirmacion'));
+        const rendimientoHistoricoAfirmaciones = areaHistoricaData[claveAfirmacionesHist] || [];
+
+        rendimientoCompetenciasSim.forEach(compSim => {
+            const aciertoSim = parseFloat(compSim.Porcentaje_Acierto.replace('%', '')) / 100;
+            const nombreComp = compSim.Nombre_Competencia;
+
+            // --- 1. Mapeo a la Afirmación Histórica (JSON 2) ---
+            const histItem = rendimientoHistoricoAfirmaciones.find(item => 
+                nombreComp.toUpperCase().includes(item.Aprendizaje_Afirmacion.substring(0, 10).toUpperCase()) ||
+                item.Aprendizaje_Afirmacion.toUpperCase().includes(nombreComp.substring(0, 10).toUpperCase())
+            );
+
+            let aciertoHist = 0;
+            if (histItem && histItem.Porcentaje_EE !== 'N.D.') {
+                const incorrectoHist = parseFloat(histItem.Porcentaje_EE.replace('%', '')) / 100;
+                aciertoHist = 1 - incorrectoHist;
+            }
+
+            // --- 2. Diagnóstico y Sugerencias (Reglas de la "IA") ---
+            let diagnostico = '';
+            let sugerenciasAsociadas = [];
+            
+            if (aciertoSim > UMBRALES_ANALISIS.FUERTE) {
+                diagnostico = 'Fortaleza Consolidada';
+            } else if (aciertoSim >= UMBRALES_ANALISIS.MEDIO) {
+                diagnostico = 'Nivel de Consolidación';
+            } else {
+                diagnostico = 'Necesita Refuerzo Urgente';
+                
+                // 3. Asignación de Sugerencias (CATÁLOGO)
+                const sugerenciaCatalog = CATALOGO_SUGERENCIAS_DCE[area.trim()];
+                if (sugerenciaCatalog) {
+                    const match = sugerenciaCatalog.find(s => nombreComp.toUpperCase().includes(s.afirmacion_clave.toUpperCase().substring(0, 10)));
+                    if (match) {
+                        sugerenciasAsociadas = match.sugerencias;
+                    }
+                }
+            }
+            
+            comparativaCompetencias.push({
+                competencia: nombreComp,
+                aciertoSimulacro: aciertoSim.toFixed(2),
+                aciertoHistorico: aciertoHist.toFixed(2),
+                brecha: (aciertoSim - aciertoHist).toFixed(2),
+                diagnostico: diagnostico,
+                sugerencias: sugerenciasAsociadas
+            });
+        });
+
+        // Almacenar resultados para el área
+        analisisResultados[area] = {
+            puntajePromedioSim: areaSimulacroData.Puntaje_Promedio_Area,
+            nivelesSimulacro: nivelesPorArea[area], 
+            comparativaCompetencias: comparativaCompetencias,
+        };
+    });
+
+    return analisisResultados;
 }
 
-// =================================================================
-// js/report_engine.js | PARTE 4: LÓGICA DE CÁLCULO Y COMPARACIÓN
-// UBICACIÓN: Reemplazar la función anterior de 'mostrarInforme'
-// =================================================================
+
+// -----------------------------------------------------------------
+// 5. RENDERIZACIÓN Y PRESENTACIÓN
+// -----------------------------------------------------------------
 
 /**
- * Función auxiliar para dibujar la gráfica de Tendencia Global (Histórico vs. Simulacros).
- * Utiliza Chart.js.
+ * Función auxiliar para dibujar la gráfica de Tendencia Global (Chart.js).
  */
 function renderizarGraficaTendencia(tendencia, elementoId) {
     const labels = tendencia.map(d => d.nombre);
     const dataPoints = tendencia.map(d => d.puntaje);
     
-    // Identificamos el puntaje histórico para crear una línea de referencia
     const histData = tendencia.find(d => d.tipo === 'historico');
     const promedioHistorico = histData ? histData.puntaje : null;
 
-    // Colores: Histórico (Gris/Negro), Simulacros (Azul/Verde)
     const backgroundColors = tendencia.map(d => 
         d.tipo === 'historico' ? 'rgba(50, 50, 50, 0.8)' : 'rgba(0, 153, 255, 0.8)'
     );
@@ -525,6 +466,7 @@ function renderizarGraficaTendencia(tendencia, elementoId) {
         d.tipo === 'historico' ? 'rgba(50, 50, 50, 1)' : 'rgba(0, 153, 255, 1)'
     );
 
+    // [El código de Chart.js aquí]
     new Chart(document.getElementById(elementoId).getContext('2d'), {
         type: 'line',
         data: {
@@ -535,7 +477,7 @@ function renderizarGraficaTendencia(tendencia, elementoId) {
                 backgroundColor: backgroundColors,
                 borderColor: borderColors,
                 borderWidth: 3,
-                tension: 0.4, // Suaviza la línea
+                tension: 0.4, 
                 pointRadius: 5,
                 fill: false
             }]
@@ -545,13 +487,13 @@ function renderizarGraficaTendencia(tendencia, elementoId) {
             scales: {
                 y: {
                     min: 200, 
-                    max: 400, // Ajustar según rango real de puntajes globales
+                    max: 400, 
                     title: { display: true, text: 'Puntaje Global' }
                 }
             },
             plugins: {
                 title: { display: true, text: 'Tendencia de Rendimiento Global' },
-                annotation: { // Para dibujar la línea horizontal del promedio histórico
+                annotation: { 
                     annotations: promedioHistorico ? [{
                         type: 'line',
                         yMin: promedioHistorico,
@@ -566,6 +508,45 @@ function renderizarGraficaTendencia(tendencia, elementoId) {
     });
 }
 
+
+/**
+ * Función auxiliar para dibujar la gráfica de Niveles de Desempeño (Torta/Pie).
+ */
+function renderizarGraficaNiveles(distribucion, elementoId, titulo) {
+    const labels = Object.keys(distribucion).filter(k => k !== 'Total').sort((a, b) => {
+        const idA = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === a)?.id || 0;
+        const idB = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === b)?.id || 0;
+        return idA - idB;
+    });
+
+    const dataPoints = labels.map(label => parseFloat(distribucion[label]));
+    
+    const colors = labels.map(label => {
+        const nivel = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === label) || RANGOS_DESEMPENIO.niveles_areas_estandar.find(n => n.nombre === label);
+        return nivel ? nivel.color : 'gray';
+    });
+
+    // [El código de Chart.js aquí]
+    new Chart(document.getElementById(elementoId).getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Distribución %',
+                data: dataPoints,
+                backgroundColor: colors,
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: { display: true, text: `Niveles de Desempeño ${titulo}` },
+                legend: { position: 'right' }
+            }
+        }
+    });
+}
 
 /**
  * Función que renderiza todo el informe en el contenedor HTML.
@@ -689,53 +670,9 @@ function mostrarInforme(reporte) {
 }
 
 
-/**
- * Función auxiliar para dibujar la gráfica de Niveles de Desempeño (Torta/Pie).
- */
-function renderizarGraficaNiveles(distribucion, elementoId, titulo) {
-    const labels = Object.keys(distribucion).filter(k => k !== 'Total').sort((a, b) => {
-        // Ordenar por nivel ID para consistencia (Insuficiente, Mínimo, Satisfactorio, Avanzado)
-        const idA = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === a)?.id || 0;
-        const idB = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === b)?.id || 0;
-        return idA - idB;
-    });
-
-    const dataPoints = labels.map(label => parseFloat(distribucion[label]));
-    
-    const colors = labels.map(label => {
-        const nivel = RANGOS_DESEMPENIO.niveles_global.find(n => n.nombre === label) || RANGOS_DESEMPENIO.niveles_areas_estandar.find(n => n.nombre === label);
-        return nivel ? nivel.color : 'gray';
-    });
-
-    new Chart(document.getElementById(elementoId).getContext('2d'), {
-        type: 'doughnut',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Distribución %',
-                data: dataPoints,
-                backgroundColor: colors,
-                hoverOffset: 4
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                title: { display: true, text: `Niveles de Desempeño ${titulo}` },
-                legend: { position: 'right' }
-            }
-        }
-    });
-}
-
-
 // -----------------------------------------------------------------
-// 5. FUNCIÓN PRINCIPAL DE ORQUESTACIÓN
+// 6. FUNCIÓN PRINCIPAL DE ORQUESTACIÓN
 // -----------------------------------------------------------------
-
-// =================================================================
-// js/report_engine.js | FUNCIÓN PRINCIPAL iniciarProceso() COMPLETA
-// =================================================================
 
 async function iniciarProceso() {
     
@@ -754,7 +691,6 @@ async function iniciarProceso() {
         const historicoICFES = await cargarJSON(ARCHIVO_ICFES);
         const detalleCSV = await cargarConsolidadoCSV(ARCHIVOS_DETALLE_CSV); 
         
-        // Carga de todos los JSON de simulacro (JSON 3) y Matrices DCE (JSON 1)
         const resultadosSimulacros = {};
         for (const simName of ordenSimulacros) {
             resultadosSimulacros[simName] = await cargarJSON(ARCHIVOS_SIMULACROS[simName]);
@@ -823,7 +759,6 @@ async function iniciarProceso() {
             if (simData.Metadata_Simulacro && simData.Metadata_Simulacro.Puntaje_Global) {
                 puntajeSim = parseFloat(simData.Metadata_Simulacro.Puntaje_Global);
             } else if (simName === simulacroRecienteNombre) {
-                // Usar el promedio calculado del CSV para el simulacro reciente si no tiene global en el JSON 3
                 puntajeSim = promedioGlobalSimulacro; 
             }
 
@@ -861,7 +796,6 @@ async function iniciarProceso() {
                 distribucionNiveles: distribucionNiveles.Global
             },
             nivelesPorArea: distribucionNiveles.Areas,
-            // Datos brutos cargados para el análisis
             resultadosSimulacros: resultadosSimulacros, 
             matricesDCE: matricesDCE,
             historicoICFES: historicoICFES 
