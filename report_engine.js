@@ -235,7 +235,107 @@ function calcularDistribucionNiveles(detalleCSV) {
             distribucion.Areas[area].Total++;
         }
     });
+// =================================================================
+// js/report_engine.js | PARTE 4: LÓGICA DE CÁLCULO Y COMPARACIÓN
+// UBICACIÓN: Implementar la función generarAnalisisPorArea
+// =================================================================
 
+/**
+ * Genera el análisis detallado por área, comparando rendimiento, brechas y asignando sugerencias.
+ * @param {object} reporteFinal - El objeto de reporte final con todos los datos cargados.
+ * @returns {object} Análisis estructurado por área.
+ */
+function generarAnalisisPorArea(reporteFinal) {
+    const { resultadosSimulacros, matricesDCE, nivelesPorArea } = reporteFinal;
+    const historicoData = reporteFinal.historicoICFES; // Asumimos que se cargó en iniciarProceso
+    const analisisResultados = {};
+    const simulacroRecienteData = resultadosSimulacros[reporteFinal.metadata.simulacroReciente];
+
+    // Áreas a analizar (basadas en las matrices cargadas)
+    const areas = Object.keys(matricesDCE);
+
+    areas.forEach(area => {
+        const areaSimulacroData = simulacroRecienteData.Resultados_Areas.find(a => a.Area === area);
+        
+        // El nombre de la clave en el JSON Histórico (JSON 2)
+        const areaKeyHist = area.replace(/\s/g, '_'); 
+        const areaHistoricaData = historicoData.Areas_Detalle[areaKeyHist];
+
+        if (!areaSimulacroData || !areaHistoricaData) {
+            console.warn(`Datos insuficientes para el área: ${area}`);
+            return;
+        }
+
+        const comparativaCompetencias = [];
+        let debilidadesClave = [];
+        
+        // Analizar rendimiento por Competencia/Afirmación
+        const rendimientoCompetenciasSim = areaSimulacroData.Rendimiento_Competencias;
+        const rendimientoHistoricoAfirmaciones = areaHistoricaData[`Figura_${Object.keys(areaHistoricaData).find(k => k.includes('Afirmacion'))}`];
+
+        rendimientoCompetenciasSim.forEach(compSim => {
+            const aciertoSim = parseFloat(compSim.Porcentaje_Acierto.replace('%', '')) / 100;
+            const nombreComp = compSim.Nombre_Competencia;
+
+            // --- 1. Mapeo a la Afirmación Histórica (JSON 2) ---
+            
+            // Buscamos la afirmación histórica que más se acerca al nombre de la Competencia.
+            // NOTA: Usamos el nombre de la competencia como proxy para la Afirmación DCE.
+            const histItem = rendimientoHistoricoAfirmaciones.find(item => 
+                item.Aprendizaje_Afirmacion.toUpperCase().includes(nombreComp.substring(0, 10)) // Mapeo parcial de texto
+            );
+
+            let aciertoHist = 0;
+            if (histItem && histItem.Porcentaje_EE !== 'N.D.') {
+                // El histórico da el % INCORRECTO. Lo convertimos a ACIERTO.
+                const incorrectoHist = parseFloat(histItem.Porcentaje_EE.replace('%', '')) / 100;
+                aciertoHist = 1 - incorrectoHist;
+            }
+
+            // --- 2. Diagnóstico por Regla (La "IA") ---
+            let diagnostico = '';
+            let sugerenciasAsociadas = [];
+            
+            if (aciertoSim > UMBRALES_ANALISIS.FUERTE) {
+                diagnostico = 'Fortaleza Consolidada';
+            } else if (aciertoSim >= UMBRALES_ANALISIS.MEDIO) {
+                diagnostico = 'Nivel de Consolidación';
+            } else {
+                diagnostico = 'Necesita Refuerzo Urgente';
+                debilidadesClave.push(nombreComp);
+                
+                // --- 3. Asignación de Sugerencias (CATÁLOGO) ---
+                const sugerenciaCatalog = CATALOGO_SUGERENCIAS_DCE[area.trim()];
+                if (sugerenciaCatalog) {
+                    const match = sugerenciaCatalog.find(s => nombreComp.toUpperCase().includes(s.afirmacion_clave.toUpperCase().substring(0, 10)));
+                    if (match) {
+                        sugerenciasAsociadas = match.sugerencias;
+                    }
+                }
+            }
+            
+            comparativaCompetencias.push({
+                competencia: nombreComp,
+                aciertoSimulacro: aciertoSim.toFixed(2),
+                aciertoHistorico: aciertoHist.toFixed(2),
+                brecha: (aciertoSim - aciertoHist).toFixed(2),
+                diagnostico: diagnostico,
+                sugerencias: sugerenciasAsociadas
+            });
+        });
+
+        // Almacenar resultados para el área
+        analisisResultados[area] = {
+            puntajePromedioSim: areaSimulacroData.Puntaje_Promedio_Area,
+            nivelesSimulacro: nivelesPorArea[area], // Distribución de Nivel 1, 2, 3, 4
+            comparativaCompetencias: comparativaCompetencias,
+            debilidadesClave: debilidadesClave
+        };
+    });
+
+    return analisisResultados;
+}
+// -----------------------------------------------------------------
     // CONVERTIR CONTEOS A PORCENTAJES
     function convertirAporcentaje(dist, total) {
         const resultado = {};
@@ -429,7 +529,7 @@ async function iniciarProceso() {
         };
 
         // LLAMAR AL SIGUIENTE PASO: ANÁLISIS DETALLADO POR ÁREA
-        reporteFinal.analisisPorArea = generarAnalisisPorArea(reporteFinal);
+        reporteFinal.analisisPorArea = generarAnalisisPorArea(reporteFinal, historicoICFES);
 
         // ---------------------------------------------------
         // Renderización
