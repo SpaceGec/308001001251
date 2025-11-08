@@ -74,33 +74,164 @@ const UMBRALES_ANALISIS = {
     DEBIL: 0.00   // < 45% (Necesita Refuerzo)
 };
 
-// Catálogo de Sugerencias (Necesita ser completado, solo Mat. por ahora)
+// =================================================================
+// js/report_engine.js | PARTE 1: CONSTANTES
+// UBICACIÓN: Catálogo de Sugerencias (NUEVA VERSIÓN DETALLADA DCE)
+// =================================================================
+
+/**
+ * CATALOGO_SUGERENCIAS_DCE: Base de conocimientos que asocia una debilidad
+ * en una competencia/afirmación (Afirmacion_Clave) con acciones pedagógicas concretas.
+ */
 const CATALOGO_SUGERENCIAS_DCE = {
+
     "Matemáticas": [
+        // Competencia 1: Interpretación y representación
         {
             "afirmacion_clave": "Interpretación y representación", 
             "sugerencias": [
-                "Implementar talleres de lectura crítica de datos: usar noticias, infografías y tablas reales para identificar la información principal.",
-                "Realizar ejercicios de transformación de representación, pasando de tabla a gráfica y viceversa."
+                "**Foco DCE: Evidencias 1.1 y 1.2.** Implementar el uso constante de diferentes formatos (tablas, gráficas de dispersión, diagramas de caja) para representar el mismo conjunto de datos, enfatizando la justificación de la transformación.",
+                "Realizar ejercicios de 'traducción' de lenguaje natural (enunciado de un problema) a lenguaje matemático (ecuaciones, fórmulas) y viceversa, fortaleciendo la comprensión inicial del problema.",
+                "Promover la lectura detallada de infografías complejas y reportes estadísticos para identificar datos relevantes y distinguir entre información principal y secundaria."
             ]
         },
+        // Competencia 2: Formulación y ejecución
         {
             "afirmacion_clave": "Formulación y ejecución",
             "sugerencias": [
-                "Fomentar la modelación de problemas: pedir a los estudiantes que dibujen o escriban el plan de solución antes de ejecutar el cálculo.",
-                "Trabajar en la identificación de la información relevante y la irrelevante."
+                "**Foco DCE: Evidencias 2.1, 2.2 y 2.3.** Diseñar actividades donde el estudiante deba justificar por qué eligió un modelo o plan específico (algebraico, geométrico, estadístico) antes de resolverlo (énfasis en la formulación, no solo en la ejecución).",
+                "Fomentar la descomposición de problemas complejos en subproblemas más pequeños, asegurando la trazabilidad de los pasos y el uso de procedimientos conocidos (ejecución).",
+                "Incorporar escenarios de 'prueba y error' y análisis de casos fallidos, incentivando la reflexión sobre por qué una estrategia inicial no fue adecuada."
             ]
         },
+        // Competencia 3: Argumentación
         {
             "afirmacion_clave": "Argumentación",
             "sugerencias": [
-                "Implementar debates matemáticos: presentar dos soluciones diferentes a un problema y pedirles que defiendan el procedimiento más válido.",
-                "Solicitar justificaciones escritas después de cada ejercicio, centrándose en el 'por qué'."
+                "**Foco DCE: Evidencias 3.1, 3.2 y 3.3.** Crear escenarios de debate donde se presenten dos o más soluciones válidas (o inválidas) y se exija al estudiante defender la validez de un procedimiento o refutar una conclusión usando principios matemáticos.",
+                "Solicitar a los estudiantes 'demostraciones informales' de por qué ciertos teoremas o fórmulas se aplican en el contexto de un problema específico (uso de criterios y validez).",
+                "Entrenar la escritura de justificaciones claras y coherentes, utilizando conectores lógicos para enlazar premisas y conclusiones."
             ]
         }
     ],
-    // ... (Otras áreas pendientes de completar)
+
+    "Lectura Crítica": [
+        // Competencia 1: Identificar y Entender Contenidos Locales
+        {
+            "afirmacion_clave": "IDENTIFICAR Y ENTENDER", 
+            "sugerencias": [
+                "**Foco DCE: Comprensión Local.** Realizar micro-lecturas enfocadas en la identificación de conectores lógicos y de sentido. Entrenar el reconocimiento de las referencias pronominales y léxicas dentro de oraciones complejas.",
+                "Utilizar ejercicios de completación de párrafos o reordenamiento de oraciones para solidificar la cohesión local.",
+                "Practicar la diferenciación de voces en textos narrativos o dialógicos, preguntando explícitamente quién dice qué y en qué contexto."
+            ]
+        },
+        // Competencia 2: Comprender Cómo se Articulan las Partes (Sentido Global)
+        {
+            "afirmacion_clave": "COMPRENDER CÓMO SE ARTICULAN", 
+            "sugerencias": [
+                "**Foco DCE: Comprensión Global.** Diseñar tareas que obliguen al estudiante a formular la tesis central del texto y a identificar los argumentos de apoyo y contra-argumentos, estructurando el texto globalmente.",
+                "Usar textos discontinuos (mapas, tablas, cómics) y pedir la articulación de la información visual y verbal en un sentido único.",
+                "Entrenar la inferencia del título o de la estructura del texto si estos han sido eliminados o alterados."
+            ]
+        },
+        // Competencia 3: Reflexionar y Evaluar el Contenido
+        {
+            "afirmacion_clave": "REFLEXIONAR A PARTIR DE UN TEXTO", 
+            "sugerencias": [
+                "**Foco DCE: Evaluación y Reflexión.** Presentar textos con sesgos o falacias lógicas evidentes y guiar la discusión para que los estudiantes evalúen la solidez de los argumentos presentados.",
+                "Asignar la tarea de investigar el contexto de producción (autor, fecha, audiencia) de textos para entender la intencionalidad ideológica o argumentativa subyacente.",
+                "Fomentar la escritura de reseñas críticas donde se juzgue la pertinencia de las fuentes citadas y la validez de la conclusión del autor."
+            ]
+        }
+    ],
+
+    "Sociales y Ciudadanas": [
+        // La clave se mapea al texto de las afirmaciones históricas (JSON 2).
+        {
+            "afirmacion_clave": "Contextualiza y evalúa usos de fuentes", 
+            "sugerencias": [
+                "**Foco DCE: Interpretación y Pensamiento Social.** Presentar fuentes primarias y secundarias (cartas, discursos, leyes) y exigir la ubicación precisa en tiempo y espacio (localización cronológica y geográfica).",
+                "Desarrollar talleres sobre el uso crítico de evidencias históricas, enseñando a distinguir hechos de opiniones y la intencionalidad del autor de la fuente.",
+                "Realizar ejercicios de contraste de narrativas históricas sobre un mismo evento, evaluando la objetividad y el rigor de las fuentes."
+            ]
+        },
+        {
+            "afirmacion_clave": "Comprende dimensiones espaciales y temporales", 
+            "sugerencias": [
+                "**Foco DCE: Pensamiento Sistémico.** Emplear estudios de caso que ilustren cómo los problemas sociales (ej. pobreza, conflicto) tienen dimensiones históricas, geográficas, políticas y económicas interconectadas.",
+                "Fomentar el análisis de la legislación colombiana (Constitución, leyes) para entender la estructura del Estado (ramas del poder, organismos de control) y los mecanismos de participación ciudadana.",
+                "Crear diagramas de causalidad que muestren cómo la toma de decisiones en una dimensión (ej., política) afecta las otras dimensiones (ej., económica o ambiental)."
+            ]
+        },
+        {
+            "afirmacion_clave": "Comprende modelos conceptuales, sus características y contextos de aplicación", 
+            "sugerencias": [
+                "**Foco DCE: Perspectiva y Multidimensionalidad.** Implementar simulaciones de dilemas éticos y políticos, asignando diferentes roles sociales a los estudiantes para que argumenten desde perspectivas diversas (ej., empresario, activista, funcionario público).",
+                "Analizar modelos económicos (capitalismo, socialismo) o políticos (democracia, autoritarismo), identificando sus características centrales y sus implicaciones prácticas en Colombia y el mundo.",
+                "Promover el debate sobre temas controversiales, exigiendo el reconocimiento de las diferentes cosmovisiones e ideologías que influyen en las posturas."
+            ]
+        }
+    ],
+
+    "Ciencias Naturales": [
+        // Competencia 1: Uso Comprensivo del Conocimiento Científico
+        {
+            "afirmacion_clave": "USO COMPRENSIVO DEL CONOCIMIENTO", 
+            "sugerencias": [
+                "**Foco DCE: Procesos de Explicación.** Fomentar la aplicación de conceptos científicos (ej. leyes de Newton, termodinámica, genética) para explicar fenómenos cotidianos, trascendiendo la simple memorización.",
+                "Diseñar actividades donde se deba predecir el comportamiento de un sistema (físico, químico o biológico) si se alteran ciertas variables, usando modelos conceptuales.",
+                "Reforzar el entendimiento de las propiedades y la estructura de la materia, haciendo énfasis en las transformaciones químicas y los procesos biológicos que las utilizan."
+            ]
+        },
+        // Competencia 2: Indagación
+        {
+            "afirmacion_clave": "INDAGACIÓN", 
+            "sugerencias": [
+                "**Foco DCE: Habilidades Científicas.** Presentar experimentos fallidos o datos incompletos y solicitar a los estudiantes que formulen preguntas de investigación válidas y propongan variables de control/medición.",
+                "Desarrollar el análisis crítico de la metodología: evaluar si los datos presentados en un estudio son suficientes y pertinentes para soportar las conclusiones derivadas (válido para Física, Química y Biología).",
+                "Practicar la interpretación de gráficos y tablas de resultados experimentales, enfocándose en la identificación de patrones y la relación entre las variables."
+            ]
+        },
+        // Competencia 3: Explicación de Fenómenos
+        {
+            "afirmacion_clave": "EXPLICACIÓN DE FENÓMENOS", 
+            "sugerencias": [
+                "**Foco DCE: Razonamiento Causa-Efecto.** Asignar la tarea de construir narrativas científicas que expliquen cómo ocurren ciertos fenómenos (ej. el ciclo del agua, la propagación de una onda, el equilibrio químico) utilizando modelos y leyes científicas.",
+                "Enfatizar la conexión Ciencia, Tecnología y Sociedad (CTS): analizar el impacto de tecnologías específicas (ej., plásticos, antibióticos) en el entorno y la salud, y evaluar el potencial de nuevos recursos o artefactos.",
+                "Promover la construcción de modelos (físicos o diagramáticos) para ilustrar la dinámica de sistemas complejos (ej., ecosistemas, circuitos eléctricos)."
+            ]
+        }
+    ],
+
+    "Inglés": [
+        // El inglés usa Marco Común Europeo de Referencia (MCER), enfocado en las sub-habilidades:
+        {
+            "afirmacion_clave": "LINGÜÍSTICA", // Foco en vocabulario, gramática y coherencia estructural
+            "sugerencias": [
+                "**Foco DCE: Gramática y Vocabulario en Contexto.** Realizar ejercicios de completación de textos o cloze tests (Partes 3 y 4 del ICFES) para reforzar el uso correcto de tiempos verbales, preposiciones y conectores.",
+                "Utilizar flashcards contextualizadas para vocabulario. En lugar de traducir, practicar el uso de la palabra en frases y situaciones comunicativas reales (sociolingüística).",
+                "Practicar la identificación de errores comunes de gramática en textos escritos y la corrección posterior."
+            ]
+        },
+        {
+            "afirmacion_clave": "PRAGMÁTICA", // Foco en la función comunicativa y el sentido global
+            "sugerencias": [
+                "**Foco DCE: Función Comunicativa.** Emplear tareas de lectura rápida (skimming y scanning) para identificar el propósito comunicativo del texto (informar, persuadir, instruir).",
+                "Trabajar con fragmentos de textos donde se deben inferir el significado de palabras desconocidas a partir del contexto general.",
+                "Realizar ejercicios de deducción: identificar información implícita y hacer inferencias sobre el contenido o el estado de ánimo del autor/personaje."
+            ]
+        },
+        {
+            "afirmacion_clave": "SOCIOLINGÜÍSTICO", // Foco en el contexto cultural y la adecuación del lenguaje
+            "sugerencias": [
+                "**Foco DCE: Adecuación y Contexto.** Presentar diálogos o textos que ocurren en diferentes contextos sociales (formal, informal, académico) y pedir la identificación de la adecuación del lenguaje (registro).",
+                "Usar ejemplos de modismos y frases hechas para que los estudiantes comprendan que el significado no siempre es literal.",
+                "Practicar la selección de respuestas adecuadas en situaciones comunicativas específicas (Partes 1 y 2 del ICFES) para evaluar la comprensión del contexto social."
+            ]
+        }
+    ]
 };
+// =================================================================
 
 
 // -----------------------------------------------------------------
