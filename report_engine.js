@@ -602,10 +602,15 @@ function renderizarGraficaNiveles(distribucion, elementoId, titulo) {
 // 5. FUNCIÓN PRINCIPAL DE ORQUESTACIÓN
 // -----------------------------------------------------------------
 
+// =================================================================
+// js/report_engine.js | FUNCIÓN PRINCIPAL iniciarProceso() COMPLETA
+// =================================================================
+
 async function iniciarProceso() {
     
     document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calculando...';
     
+    // 1. OBTENER ORDEN DE APLICACIÓN (Desde el HTML)
     const ordenSimulacros = [
         document.getElementById('simulacro1').value, 
         document.getElementById('simulacro2').value, 
@@ -614,7 +619,7 @@ async function iniciarProceso() {
     const simulacroRecienteNombre = ordenSimulacros[ordenSimulacros.length - 1];
 
     try {
-        // A. Carga de datos estáticos y dinámicos (CSV)
+        // A. Carga de datos
         const historicoICFES = await cargarJSON(ARCHIVO_ICFES);
         const detalleCSV = await cargarConsolidadoCSV(ARCHIVOS_DETALLE_CSV); 
         
@@ -687,6 +692,7 @@ async function iniciarProceso() {
             if (simData.Metadata_Simulacro && simData.Metadata_Simulacro.Puntaje_Global) {
                 puntajeSim = parseFloat(simData.Metadata_Simulacro.Puntaje_Global);
             } else if (simName === simulacroRecienteNombre) {
+                // Usar el promedio calculado del CSV para el simulacro reciente si no tiene global en el JSON 3
                 puntajeSim = promedioGlobalSimulacro; 
             }
 
@@ -703,7 +709,7 @@ async function iniciarProceso() {
         const distribucionNiveles = calcularDistribucionNiveles(detalleCSV); 
         
         // ---------------------------------------------------
-        // ESTRUCTURA DEL REPORTE FINAL
+        // ESTRUCTURA DEL REPORTE FINAL (Fase III/IV)
         // ---------------------------------------------------
         
         const reporteFinal = {
@@ -724,12 +730,14 @@ async function iniciarProceso() {
                 distribucionNiveles: distribucionNiveles.Global
             },
             nivelesPorArea: distribucionNiveles.Areas,
+            // Datos brutos cargados para el análisis
             resultadosSimulacros: resultadosSimulacros, 
             matricesDCE: matricesDCE,
+            historicoICFES: historicoICFES 
         };
 
-        // LLAMAR AL SIGUIENTE PASO: ANÁLISIS DETALLADO POR ÁREA
-        reporteFinal.analisisPorArea = generarAnalisisPorArea(reporteFinal, historicoICFES);
+        // 8. LLAMAR AL PASO FINAL: ANÁLISIS DETALLADO Y SUGERENCIAS
+        reporteFinal.analisisPorArea = generarAnalisisPorArea(reporteFinal); 
 
         // ---------------------------------------------------
         // Renderización
