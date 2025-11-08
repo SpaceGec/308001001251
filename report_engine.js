@@ -25,10 +25,15 @@ const ARCHIVOS_MATRICES = {
     'Inglés': 'Matriz_ing.json'
 };
 
-const ARCHIVOS_DETALLE_CSV = [
+const ARCHIVOS_MAESTROS_CSV = [
+    '10-1-JM-2-02 SIGMA 10 SABER.csv',
+    '10-2-JM-2-02 SIGMA 10 SABER.csv',
+    '10-3-JM-2-02 SIGMA 10 SABER.csv',
     '10-A-JM-2-05 DZETA 10 SABER.csv',
+    '10-B-JM-2-03 EPSILON 10 SABER.csv',
+    '10-B-JM-2-05 DZETA 10 SABER.csv',
+    '10-C-JM-2-03 EPSILON 10 SABER.csv',
     '10-C-JM-2-05 DZETA 10 SABER.csv',
-    // Otros CSV del simulacro reciente si existen
 ];
 
 
