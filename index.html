@@ -24,14 +24,23 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Generador de Informes Web Comparativos</h1>
-        
-        <div class="container">
+  <div class="container">
     <header style="border-bottom: 3px solid #004d99; padding-bottom: 10px;">
+        <!-- Título único -->
         <h1 style="color: #004d99;">Generador de Informes Web Comparativos</h1>
         <h3 style="color: #4CAF50;">Grupo Edúcate Colombia</h3>
+        
+        <!-- Caja de Metadata: Muestra el DANE y el Nombre del colegio cargado -->
+        <div id="metadata-info" style="margin-top: 15px;">
+            <p><strong>DANE: </strong> <span>308001001251</span></p> 
+            <p><strong>Colegio: </strong> <span id="nombre-colegio">Cargando Nombre del Colegio...</span></p>
+        </div>
     </header>
+    
+    <div id="configuracion-orden" class="config-box" style="margin-top: 20px;">
+        
+        <!-- H2 simplificado, ya no necesita "A. Configuración" -->
+        <h2>Secuencia de Análisis Cronológico</h2>
     
     <div id="metadata-info" class="config-box" style="display: none;">
         <!-- Esta información se llenará con JS antes del análisis -->
