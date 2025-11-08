@@ -180,12 +180,15 @@ function generarAnalisisPorArea(resultadosSimulacros, historicoICFES, matricesDC
 // 5. FUNCIÓN PRINCIPAL DE ORQUESTACIÓN
 // -----------------------------------------------------------------
 
+// =================================================================
+// js/report_engine.js | FUNCIÓN PRINCIPAL iniciarProceso() CONSOLIDADA
+// =================================================================
+
 async function iniciarProceso() {
+    
     document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calculando...';
     
-    // NOTA: Si los archivos se encuentran en una subcarpeta (ej: 308001001251/), 
-    // las rutas de las constantes deberán ajustarse para incluir ese prefijo.
-
+    // 1. OBTENER ORDEN DE APLICACIÓN (Desde el HTML)
     const ordenSimulacros = [
         document.getElementById('simulacro1').value, 
         document.getElementById('simulacro2').value, 
@@ -194,35 +197,140 @@ async function iniciarProceso() {
     const simulacroRecienteNombre = ordenSimulacros[ordenSimulacros.length - 1];
 
     try {
-        // A. Carga de datos
+        // A. Carga de datos estáticos y dinámicos (CSV)
         const historicoICFES = await cargarJSON(ARCHIVO_ICFES);
         
         // Carga y Consolidación del detalle de estudiantes (CSV/Excel) para el ÚLTIMO SIMULACRO
+        // (Asume que ARCHIVOS_DETALLE_CSV contiene las rutas de todos los grupos del último simulacro)
         const detalleCSV = await cargarConsolidadoCSV(ARCHIVOS_DETALLE_CSV); 
         
         // Carga de todos los JSON de simulacro (JSON 3) y Matrices DCE (JSON 1)
-        const [
-            resultadosSimulacros, 
-            matricesDCE
-        ] = await Promise.all([
-            Promise.all(Object.keys(ARCHIVOS_SIMULACROS).map(key => cargarJSON(ARCHIVOS_SIMULACROS[key]))),
-            Promise.all(Object.keys(ARCHIVOS_MATRICES).map(key => cargarJSON(ARCHIVOS_MATRICES[key])))
-        ]);
+        // Mapeamos los arrays de promesas a objetos fáciles de consultar
+        const resultadosSimulacros = {};
+        for (const simName of ordenSimulacros) {
+            resultadosSimulacros[simName] = await cargarJSON(ARCHIVOS_SIMULACROS[simName]);
+        }
+        
+        const matricesDCE = {};
+        for (const [area, ruta] of Object.entries(ARCHIVOS_MATRICES)) {
+            matricesDCE[area] = await cargarJSON(ruta);
+        }
 
         // ---------------------------------------------------
-        // CÁLCULO PENDIENTE
+        // CÁLCULO GLOBAL (Fase II)
         // ---------------------------------------------------
+        
+        // 1. Obtener datos históricos del Establecimiento Educativo (EE)
+        const datosHistEE = historicoICFES.Resultados_Consolidados.Tabla_2_1_Global.find(d => 
+            d.Grupo_Comparacion === "Establecimiento educativo"
+        );
 
-        // Aquí se implementarían el cálculo global, Z-Score, Tendencia, y Distribución.
+        // 2. DETECCIÓN DINÁMICA DEL ÚLTIMO AÑO DISPONIBLE
+        let ultimoAnio = null;
+        let histPromedio = 0;
+        let histDesviacion = 0;
 
-        document.getElementById('contenedor-informe').innerHTML = 
-            `<h2>Carga exitosa!</h2><p>Archivos cargados: ${Object.keys(ARCHIVOS_SIMULACROS).length} simulacros, ${Object.keys(ARCHIVOS_MATRICES).length} matrices, 1 ICFES. ${detalleCSV.length} registros de estudiantes consolidados para el último simulacro.</p>
-            <p><strong>El siguiente paso es añadir la lógica de cálculo y análisis.</strong></p>`;
+        for (let year = 2025; year >= 2021; year--) { // Iterar en un rango razonable de años
+            const anioKey = `Anio_${year}`;
+            if (datosHistEE[anioKey] && datosHistEE[anioKey].Promedio !== "N.D.") {
+                ultimoAnio = year;
+                histPromedio = parseFloat(datosHistEE[anioKey].Promedio);
+                histDesviacion = parseFloat(datosHistEE[anioKey].Desviacion);
+                break; 
+            }
+        }
+        if (ultimoAnio === null) {
+            throw new Error("No se encontraron datos históricos de Promedio Global y Desviación Estándar (EE).");
+        }
+
+        // 3. Identificar el Grupo de Comparación (GC) y su promedio.
+        const nombreGC = historicoICFES.Datos_Generales.GC && historicoICFES.Datos_Generales.GC !== "N.D." 
+            ? historicoICFES.Datos_Generales.GC 
+            : "Oficiales urbanos ETC"; // Fallback si el GC del JSON es N.D.
+            
+        const datosGrupoComp = historicoICFES.Resultados_Consolidados.Tabla_2_1_Global.find(d => 
+            d.Grupo_Comparacion === nombreGC
+        ) || { [`Anio_${ultimoAnio}`]: { Promedio: "N.D." } }; // Aseguramos un objeto si no se encuentra
+
+        const promGrupoComp = datosGrupoComp[`Anio_${ultimoAnio}`].Promedio !== "N.D."
+            ? parseFloat(datosGrupoComp[`Anio_${ultimoAnio}`].Promedio)
+            : 0;
+
+        // 4. Cálculo del promedio global del simulacro más reciente (Dzeta)
+        const puntajesGlobalesSimulacro = detalleCSV.map(row => row.PUNTAJE).filter(p => typeof p === 'number' && !isNaN(p));
+        const promedioGlobalSimulacro = calcularPromedio(puntajesGlobalesSimulacro);
+
+        // 5. Cálculo Estadístico Clave
+        const zScoreGlobal = calcularZScore(promedioGlobalSimulacro, histPromedio, histDesviacion);
+        
+        // 6. Estructura de la TENDENCIA GLOBAL
+        const promediosSimulacrosTendencia = [
+            { nombre: `Histórico EE (${ultimoAnio})`, puntaje: histPromedio, tipo: 'historico', desviacion: histDesviacion } 
+        ];
+        
+        ordenSimulacros.forEach(simName => {
+            const simData = resultadosSimulacros[simName];
+            
+            // Buscar puntaje global. Asumimos que los JSON de simulacro (JSON 3) tienen un Metadata_Simulacro.Puntaje_Global.
+            // Si no lo tiene, recurrimos al cálculo del CSV si es el último simulacro.
+            let puntajeSim = null;
+            if (simData.Metadata_Simulacro && simData.Metadata_Simulacro.Puntaje_Global) {
+                puntajeSim = parseFloat(simData.Metadata_Simulacro.Puntaje_Global);
+            } else if (simName === simulacroRecienteNombre) {
+                puntajeSim = promedioGlobalSimulacro; 
+            }
+
+            if (puntajeSim !== null) {
+                promediosSimulacrosTendencia.push({
+                    nombre: simName,
+                    puntaje: puntajeSim,
+                    tipo: 'simulacro'
+                });
+            }
+        });
+
+        // 7. Cálculo de Distribución de Niveles (Lógica del Paso 21)
+        const distribucionNiveles = calcularDistribucionNiveles(detalleCSV); 
+        
+        // ---------------------------------------------------
+        // ESTRUCTURA DEL REPORTE FINAL (Fase III/IV)
+        // ---------------------------------------------------
+        
+        const reporteFinal = {
+            metadata: {
+                colegio: historicoICFES.Datos_Generales.Nombre_Colegio,
+                dane: DANE_COLEGIO,
+                ultimoAnioHistorico: ultimoAnio,
+                simulacroReciente: simulacroRecienteNombre
+            },
+            global: {
+                promedioSimulacroReciente: promedioGlobalSimulacro.toFixed(2),
+                promedioHistorico: histPromedio.toFixed(2),
+                desviacionHistorica: histDesviacion.toFixed(2),
+                zScore: zScoreGlobal.toFixed(2),
+                tendencia: promediosSimulacrosTendencia,
+                grupoComparacion: nombreGC,
+                promedioGrupoComp: promGrupoComp.toFixed(2),
+                distribucionNiveles: distribucionNiveles.Global
+            },
+            nivelesPorArea: distribucionNiveles.Areas,
+            // Datos brutos cargados
+            resultadosSimulacros: resultadosSimulacros, 
+            matricesDCE: matricesDCE,
+        };
+
+        // LLAMAR AL SIGUIENTE PASO: ANÁLISIS DETALLADO POR ÁREA
+        reporteFinal.analisisPorArea = generarAnalisisPorArea(reporteFinal); // Se implementará en el Paso 22
+
+        // ---------------------------------------------------
+        // Renderización
+        // ---------------------------------------------------
+        mostrarInforme(reporteFinal);
 
 
     } catch (error) {
         document.getElementById('contenedor-informe').innerHTML = 
-            `<h2 style="color:red;">Fallo catastrófico al cargar los datos.</h2><p>Verifique los nombres de los archivos en el repositorio y la configuración de rutas en report_engine.js.</p><p>Detalle: ${error.message}</p>`;
+            `<h2 style="color:red;">Fallo al generar el informe.</h2><p>Verifique que los archivos JSON y los CSV de los grupos estén presentes en la raíz de la carpeta ${DANE_COLEGIO}.</p><p>Detalle del error: ${error.message}</p>`;
         console.error("Error grave en la orquestación:", error);
     }
 }
