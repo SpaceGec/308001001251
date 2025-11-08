@@ -27,32 +27,45 @@
     <div class="container">
         <h1>Generador de Informes Web Comparativos</h1>
         
-        <div id="configuracion-datos" class="config-box">
-            
-            <h2>A. Configuración de la Evaluación</h2>
-            <p><strong>DANE: ${DANE_COLEGIO}</strong>. Los archivos de datos (JSON y CSV) se cargarán automáticamente desde el repositorio.</p>
+        <div class="container">
+    <header style="border-bottom: 3px solid #004d99; padding-bottom: 10px;">
+        <h1 style="color: #004d99;">Generador de Informes Web Comparativos</h1>
+        <h3 style="color: #4CAF50;">Grupo Edúcate Colombia</h3>
+    </header>
+    
+    <div id="metadata-info" class="config-box" style="display: none;">
+        <!-- Esta información se llenará con JS antes del análisis -->
+        <h2>Informe para: <span id="nombre-colegio">Cargando...</span></h2>
+        <p><strong>DANE: </strong> <span id="codigo-dane">Cargando...</span></p>
+    </div>
+    
+    <div id="configuracion-orden" class="config-box">
+        
+        <h2>Configuración de la Secuencia de Análisis</h2>
+        <p>Los datos se cargarán automáticamente desde el repositorio.</p>
 
-            <h3>Orden Cronológico de Simulacros (Más Antiguo a Más Reciente)</h3>
-            <p>Defina el orden para trazar la tendencia histórica. (Los nombres deben coincidir con sus claves en report_engine.js).</p>
-            
-            <div id="orden-simulacros">
-                <label for="simulacro1">Simulacro 1 (Más Antiguo):</label>
-                <input type="text" id="simulacro1" value="Gamma_10" placeholder="Ej: Gamma_10"><br>
+        <h3>Orden Cronológico de Simulacros (Más Antiguo a Más Reciente)</h3>
+        <p>Defina el orden para trazar la tendencia histórica. (Si el orden es correcto, presione "Generar").</p>
+        
+        <div id="orden-simulacros">
+            <label for="simulacro1">Simulacro 1 (Más Antiguo):</label>
+            <input type="text" id="simulacro1" value="Gamma_10" placeholder="Ej: Gamma_10"><br>
 
-                <label for="simulacro2">Simulacro 2:</label>
-                <input type="text" id="simulacro2" value="Epsilon_10" placeholder="Ej: Epsilon_10"><br>
+            <label for="simulacro2">Simulacro 2:</label>
+            <input type="text" id="simulacro2" value="Epsilon_10" placeholder="Ej: Epsilon_10"><br>
 
-                <label for="simulacro3">Simulacro 3 (Más Reciente):</label>
-                <input type="text" id="simulacro3" value="Dzeta_10" placeholder="Ej: Dzeta_10"><br>
-            </div>
-            
-            <br>
-            <button onclick="iniciarProceso()">Generar Informe Web</button>
+            <label for="simulacro3">Simulacro 3 (Más Reciente):</label>
+            <input type="text" id="simulacro3" value="Dzeta_10" placeholder="Ej: Dzeta_10"><br>
         </div>
-
-        <div id="contenedor-informe">
-            <p>Haga clic en 'Generar Informe Web' para empezar el cálculo.</p>
-        </div>
+        
+        <br>
+        <button onclick="iniciarProceso()">Generar Informe Web</button>
+    </div>
+    
+    <div id="contenedor-informe">
+        <p>Haga clic en 'Generar Informe Web' para empezar el cálculo.</p>
+    </div>
+</div>
     </div>
 
     <!-- 2. Carga del script JS (El motor de la aplicación) -->
