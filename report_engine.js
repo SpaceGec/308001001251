@@ -692,7 +692,7 @@ async function iniciarProceso() {
         document.getElementById('simulacro3').value  
     ];
     const simulacroRecienteNombre = ordenSimulacros[ordenSimulacros.length - 1];
-
+document.getElementById('contenedor-informe').innerHTML = 'Cargando datos y calculando...';
     try {
         // A. Carga de datos
         const historicoICFES = await cargarJSON(ARCHIVO_ICFES);
