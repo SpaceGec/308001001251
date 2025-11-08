@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Comparativo Edúcate Colombia</title>
+    <!-- Usaremos Chart.js para las visualizaciones. Se debe incluir desde un CDN o descargarse. -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2 { color: #004d99; }
+        .config-box { border: 1px solid #ccc; padding: 15px; border-radius: 5px; margin-bottom: 20px; background-color: #eaf4ff; }
+        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        /* Estilos básicos para el informe */
+        #contenedor-informe { margin-top: 30px; border-top: 2px solid #004d99; padding-top: 20px; }
+        .area-section { margin-bottom: 40px; border: 1px solid #eee; padding: 15px; border-radius: 5px; }
+        canvas { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Informes Web Comparativos</h1>
+        
+        <div id="configuracion-datos" class="config-box">
+            
+            <h2>Configuración de la Evaluación</h2>
+            <p>Datos estáticos (ICFES, Matrices, JSONs de simulacro) cargados automáticamente desde el repositorio.</p>
+
+            <label>El **código DANE** es: <strong>308001001251</strong></label>
+            
+            <h3>Orden Cronológico de Simulacros (Más Antiguo a Más Reciente)</h3>
+            <p>Defina el orden para trazar la tendencia histórica. Los nombres deben coincidir con sus archivos JSON (Ej: Dzeta_10).</p>
+            
+            <div id="orden-simulacros">
+                <!-- Usamos los nombres de los JSON para la identificación de los archivos -->
+                <label for="simulacro1">Simulacro 1 (Más Antiguo, Ej: Gamma_10):</label>
+                <input type="text" id="simulacro1" value="Gamma_10" placeholder="Ej: Gamma_10"><br>
+
+                <label for="simulacro2">Simulacro 2 (Ej: Epsilon_10):</label>
+                <input type="text" id="simulacro2" value="Epsilon_10" placeholder="Ej: Epsilon_10"><br>
+
+                <label for="simulacro3">Simulacro 3 (Más Reciente, Ej: Dzeta_10):</label>
+                <input type="text" id="simulacro3" value="Dzeta_10" placeholder="Ej: Dzeta_10"><br>
+            </div>
+            
+            <br>
+            <button onclick="iniciarProceso()">Generar Informe Web</button>
+        </div>
+
+        <div id="contenedor-informe">
+            <p>Haga clic en 'Generar Informe Web' para empezar el cálculo.</p>
+        </div>
+    </div>
+
+    <!-- Carga del script JS -->
+    <script src="report_engine.js"></script> 
+</body>
+</html>
