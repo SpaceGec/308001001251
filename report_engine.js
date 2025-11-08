@@ -6,7 +6,7 @@
 // 1. CONSTANTES Y CONFIGURACIÓN (RUTAS, RANGOS Y REGLAS DE ANÁLISIS)
 // -----------------------------------------------------------------
 
-const DANE_COLEGIO = '308001001251'; 
+
 
 const DANE_COLEGIO = '308001001251'; 
 const RUTA_BASE_DATOS = `${DANE_COLEGIO}/`; // Nueva constante para la subcarpeta
